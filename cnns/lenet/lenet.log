@@ -1,0 +1,10 @@
+lenet
+batch_size_tr = 2000, batch_size_val = 200, num_epochs = 100, lr=1e-4
+100/100 Train: 0.3100, Val: 0.2988
+Final accuracy: 91.3700%
+
+lenet
+batch_size_tr = 2000, batch_size_val = 200, num_epochs = 100, lr=1e-3
+100/100 Train: 0.2705, Val: 0.2860
+Final accuracy: 92.4700%
+

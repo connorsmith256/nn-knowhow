@@ -1,0 +1,155 @@
+Legend:
+- 📜: papers
+- 📰: blog posts, project pages
+- 📖: books
+- 🌐: broad/general resources
+- 🧪: code, experiments
+- 📺: videos
+
+05/14/2024
+- 📰[Effort, a possibly new algorithm for LLM inference](https://kolinko.github.io/effort/index.html)
+- 📰[Introduction to Weight Quantization](https://towardsdatascience.com/introduction-to-weight-quantization-2494701b9c0c)
+- 📜[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/pdf/2208.07339)
+- 📜[GPTQ (OPTQ): Accurate Post-training Quantization For Generative Pre-trained Transformers](https://arxiv.org/pdf/2210.17323)
+- 📰[GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)
+- 📜[QuIP: 2-Bit Quantization of Large Language Models With Guarantees](https://arxiv.org/pdf/2307.13304)
+- 📜[QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks](https://arxiv.org/pdf/2402.04396)
+- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lecture 13)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
+- 🧪[Set up research log](./research-log.md)
+
+05/10/2024
+- 📜[Receptance Weighted Key Value (RWKV)](https://arxiv.org/pdf/2305.13048)
+- 🌐[Ilya's 30u30 Deep Learning](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
+
+05/09/2024
+- 📰[HuggingFace NLP Course](https://huggingface.co/learn/nlp-course)
+- 📖[Alice's Adventures In a Differentiable Wonderland](https://arxiv.org/pdf/2404.17625)
+- 📜[An Image Is Worth 16x16 Words: Transformers For Image Recognition At Scale](https://arxiv.org/pdf/2010.11929)
+- 📰[A Visual Guide to Vision Transformers ](https://blog.mdturp.ch/posts/2024-04-05-visual_guide_to_vision_transformer.html)
+
+05/08/2024
+- 📜[xLSTM: Extended Long Short-Term Memory](https://arxiv.org/abs/2405.04517)
+
+05/06/2024
+- 📰[Inducing Unprompted Misalignment in LLMs](https://www.lesswrong.com/posts/ukTLGe5CQq9w8FMne/inducing-unprompted-misalignment-in-llms)
+- 📰[Simple probes can catch sleeper agents](https://www.anthropic.com/research/probes-catch-sleeper-agents)
+- 📜[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208)
+- 📜[Efficiently Modeling Long Sequences with Structured State Spaces (S4)](https://arxiv.org/pdf/2111.00396)
+- 📜[Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/pdf/2312.00752)
+- 📜[Transformer Circuits In-Context Learning & Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
+- 📜[Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features/)
+
+05/05/2024
+- 📰[Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
+- 📜[Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)](https://arxiv.org/pdf/2305.18290)
+- 📜[Direct Preference Optimization with an Offset (ODPO)](https://arxiv.org/pdf/2402.10571)
+
+05/03/2024
+- 📜[Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/pdf/1708.04552)
+- 📜[AutoAugment: Learning Augmentation Strategies from Data](https://arxiv.org/pdf/1805.09501)
+- 📜[RandAugment: Practical automated data augmentation with a reduced search space](https://arxiv.org/pdf/1909.13719)
+- 📜[Augmix: A Simple Data Processing Method To Improve Robustness And Uncertainty](https://arxiv.org/pdf/1912.02781)
+- 📜[TrivialAugment: Tuning-free Yet State-of-the-Art Data Augmentation](https://arxiv.org/pdf/2103.10158)
+- 🧪[My first ResNet (LR search, schedulers, data augmentation)](./cnns/imagenet/)
+
+05/02/2024
+- 📜[Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677)
+- 🧪[My first ResNet (optimizer search)](./cnns/imagenet/)
+
+04/29/2024
+- 📰[xFormers](https://github.com/facebookresearch/xformers)
+- 📜[SDXS: Real-Time One-Step Latent Diffusion Models with Image Conditions](https://arxiv.org/pdf/2403.16627)
+- 📜[Hyper-SD: Trajectory Segmented Consistency Model for Efficient Image Synthesis](https://arxiv.org/pdf/2404.13686)
+
+04/25/2024
+- 🧪Experiments with local models: oobabooga & a1111
+- 📜[OpenELM: An Efficient Language Model Family with Open Training and Inference Framework](https://arxiv.org/pdf/2404.14619)
+- 📜[Phi-3 Technical Report: A Highly Capable Language Modle Locally on Your Phone](https://arxiv.org/pdf/2404.14219)
+
+04/24/2024
+- 🧪[My first ResNet (training on CIFAR10)](./cnns/imagenet/)
+
+04/23/2024
+- 🧪[My first ResNet (training on imagenette)](./cnns/imagenet/)
+
+04/22/2024
+- 🧪[My first ResNet](./cnns/imagenet/)
+
+04/21/2024
+- 🧪[My first CNN](./cnns/lenet/)
+- 📜[Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842)
+- 📜[Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/pdf/1512.03385.pdf)
+- 📜[Neural Architecture Search with Reinforcement Learning](https://arxiv.org/pdf/1611.01578)
+- 📜[ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/pdf/1707.01083)
+- 📜[MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861)
+- 📜[Gaussian Error Linear Units (GELUs)](https://arxiv.org/pdf/1606.08415)
+- 📜[GELU Activation Function in Deep Learning: A Comprehensive Mathematical Analysis and Performance](https://arxiv.org/pdf/2305.12073)
+- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lectures 9-13)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
+
+04/20/2024
+- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lectures 1-8)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
+
+04/19/2024
+- 📜[A Baseline For Detecting Misclassified And Out-of-distribution Examples In Neural Networks](https://arxiv.org/pdf/1610.02136)
+- 📜[Benchmarking Neural Network Robustness To Common Corruptions And Perturbations](https://arxiv.org/pdf/1903.12261)
+- 📜[Natural Adversarial Examples](https://arxiv.org/pdf/1907.07174)
+- 📜[The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization](https://arxiv.org/pdf/2006.16241)
+
+04/17/2024
+- 📜[Testing Robustness Against Unforeseen Adversaries](https://arxiv.org/pdf/1908.08016)
+- 📜[HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refus](https://arxiv.org/pdf/2402.04249)
+- 📜[Aligning Ai With Shared Human Values](https://arxiv.org/pdf/2008.02275)
+- 📖[AI Safety Book (Hendrycks)](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+- 📰[The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- 📜[Training Compute-Optimal Large Language Models (Chinchilla)](https://arxiv.org/pdf/2203.15556.pdf)
+
+04/15/2024
+- 📜[WaveNet: A Generative Model for Raw Audio (CNN)](https://arxiv.org/pdf/1609.03499)
+- 📜[Attention Is All You Need](https://arxiv.org/pdf/1706.0376)
+- 📰[Yes You Should Understand Backprop (Karpathy)](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
+- 📺[Let's build GPT: from scratch, in code, spelled out (Karpathy)](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- 📰[tiktoken](https://github.com/openai/tiktoken)
+- 🧪[My first GPT](./bomgen/gpt)
+
+04/14/2024
+- 📜[Recurrent Neural Network Based Language Model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
+- 📜[Generating Sequences With Recurrent Neural Networks (LSTM)](https://arxiv.org/pdf/1308.0850)
+- 📜[On the Properties of Neural Machine Translation: Encoder–Decoder Approaches (GRU)](https://arxiv.org/pdf/1409.1259)
+- 🧪[My first RNN](./rnn/rnn-manual.py)
+- 🧪[My first GRU](./rnn/gru.py)
+- 📰[Gemma PyTorch](https://github.com/google/gemma_pytorch)
+
+04/13/2024
+- 📜[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774)
+
+04/11/2024
+- 🧪[My first FNN](./fnn)
+
+04/10/2024
+- 🌐[NN Zero to Hero (Karpathy)](https://github.com/karpathy/nn-zero-to-hero)
+- 📜[A Neural Probabilistic Language Model (MLP)](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+- 📜[Adam: A Method For Stochastic Optimization](https://arxiv.org/pdf/1412.6980)
+- 📜[On Layer Normalization in the Transformer Architecture](https://arxiv.org/pdf/2002.04745)
+
+04/09/2024
+- 🌐[makemore (Karpathy)](https://github.com/karpathy/makemore)
+
+04/08/2024
+- 📰[Faulty reward functions in the wild](https://openai.com/research/faulty-reward-functions)
+- 📰[The Singular Value Decompositions of Transformer Weight Matrices are Highly Interpretable](https://www.lesswrong.com/posts/mkbGjzxD8d8XqKHzA/the-singular-value-decompositions-of-transformer-weight?ref=conjecture.dev)
+- 📰[unRLHF - Efficiently Undoing LLM Safeguards](https://www.conjecture.dev/research/unrlhf-efficiently-undoing-llm-safeguards)
+- 📜[Interpreting Neural Networks through the Polytope Lens](https://arxiv.org/pdf/2211.12312)
+- 📜[Representational Strengths and Limitations of Transformers](https://arxiv.org/pdf/2306.02896)
+
+04/02/2024
+- 🌐[micrograd (Karpathy)](https://github.com/karpathy/micrograd)
+- 📜[Layer Normalization](https://arxiv.org/pdf/1607.06450)
+
+03/31/2024
+- 📺[Implementing GPT-2 From Scratch (Nanda)](https://www.youtube.com/watch?v=dsjUDacBw8o&t=2611s)
+
+03/28/2024
+- 🌐[Transformers - A Comprehensive Mechanistic Interpretability Explainer & Glossary (Nanda)](https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J#z=pndoEIqJ6GPvC1yENQkEfZYR&q=encode)
+- 📺[What is a Transformer? (Nanda)](https://www.youtube.com/watch?v=bOYE6E8JrtU)
+- 📜[Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html)
+- 📜[A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)

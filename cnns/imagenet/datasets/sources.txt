@@ -1,0 +1,3 @@
+downloaded automatically:
+- cifar
+- imagenette
