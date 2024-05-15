@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/15/2024
+- 🧪[My first neural style transfer](./style-transfer/)
+
 05/14/2024
 - 📰[Effort, a possibly new algorithm for LLM inference](https://kolinko.github.io/effort/index.html)
 - 📰[Introduction to Weight Quantization](https://towardsdatascience.com/introduction-to-weight-quantization-2494701b9c0c)
