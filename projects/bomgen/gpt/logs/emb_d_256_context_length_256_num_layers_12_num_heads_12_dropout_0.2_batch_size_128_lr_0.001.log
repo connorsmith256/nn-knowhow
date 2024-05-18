@@ -1,0 +1,419 @@
+Model arch: emb_d: 256, context_length: 256, num_layers: 12, num_heads: 12, dropout: 0.2 (12.5M params)
+Starting from scratch (No checkpoint found)
+[ ] I    50 E   1/100 B   50/2129 LR 0.0010 TR    inf (31.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.6s, TT   31.6s
+[F] I   100 E   1/100 B  100/2129 LR 0.0010 TR 5.8212 (31.9s) [S] VAL 5.9379 (50.3s) TEST 5.9331 (50.7s) V_PPL  379.12 ( 0.0s) T_PPL  377.33 ( 0.0s) SAMP  ( 2.2s) TI 135.1s, TT  166.8s
+[ ] I   150 E   1/100 B  150/2129 LR 0.0010 TR 5.8212 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT  198.2s
+[F] I   200 E   1/100 B  200/2129 LR 0.0010 TR 5.8193 (31.3s) [ ] VAL 5.9411 (50.8s) TEST 5.9367 (50.0s) V_PPL  380.34 ( 0.0s) T_PPL  378.68 ( 0.0s) SAMP  ( 2.2s) TI 134.3s, TT  332.6s
+Stopping, user requested
+Trained to E 0, B 227 for 349.6s
+Model arch: emb_d: 256, context_length: 256, num_layers: 12, num_heads: 12, dropout: 0.2 (12.5M params)
+Starting from epoch 0, batch 100, loss 5.9379
+[ ] I   150 E   1/100 B  150/2129 LR 0.0010 TR 5.8202 (28.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.2s, TT   28.2s
+Model arch: emb_d: 256, context_length: 256, num_layers: 12, num_heads: 12, dropout: 0.2 (12.5M params)
+Starting from epoch 0, batch 100, loss 5.9379
+Model arch: emb_d: 256, context_length: 256, num_layers: 12, num_heads: 12, dropout: 0.2 (12.5M params)
+Starting from epoch 0, batch 100, loss 5.9379
+[ ] I   150 E   1/100 B  150/2129 LR 0.0010 TR 5.8202 (28.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.9s, TT   28.9s
+[ ] I   200 E   1/100 B  200/2129 LR 0.0010 TR 5.8194 (28.3s) [ ] VAL 5.9412 ( 4.6s) TEST 5.9376 ( 4.6s) V_PPL  380.40 ( 0.0s) T_PPL  379.03 ( 0.0s) SAMP  ( 2.1s) TI  39.6s, TT   68.4s
+[ ] I   250 E   1/100 B  250/2129 LR 0.0010 TR 5.8196 (28.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.5s, TT   96.9s
+[ ] I   300 E   1/100 B  300/2129 LR 0.0010 TR 5.8172 (28.6s) [ ] VAL 5.9505 ( 4.6s) TEST 5.9453 ( 4.6s) V_PPL  383.96 ( 0.0s) T_PPL  381.95 ( 0.0s) SAMP  ( 2.1s) TI  40.0s, TT  136.9s
+[ ] I   350 E   1/100 B  350/2129 LR 0.0010 TR 5.7968 (30.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.9s, TT  167.9s
+[ ] I   400 E   1/100 B  400/2129 LR 0.0010 TR 5.7493 (31.2s) [ ] VAL 6.0220 ( 5.2s) TEST 6.0175 ( 4.9s) V_PPL  412.40 ( 0.0s) T_PPL  410.57 ( 0.0s) SAMP  ( 2.2s) TI  43.5s, TT  211.4s
+[ ] I   450 E   1/100 B  450/2129 LR 0.0010 TR 5.6448 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT  242.8s
+[F] I   500 E   1/100 B  500/2129 LR 0.0010 TR 5.5165 (31.4s) [ ] VAL 6.1501 (50.5s) TEST 6.1453 (50.4s) V_PPL  468.78 ( 0.0s) T_PPL  466.53 ( 0.0s) SAMP  ( 2.3s) TI 134.5s, TT  377.3s
+[ ] I   550 E   1/100 B  550/2129 LR 0.0010 TR 5.3692 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT  408.6s
+[ ] I   600 E   1/100 B  600/2129 LR 0.0010 TR 5.2083 (31.2s) [ ] VAL 6.3559 ( 4.9s) TEST 6.3510 ( 5.2s) V_PPL  575.86 ( 0.0s) T_PPL  573.04 ( 0.0s) SAMP  ( 2.2s) TI  43.5s, TT  452.1s
+[ ] I   650 E   1/100 B  650/2129 LR 0.0010 TR 5.0296 (31.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.2s, TT  483.4s
+[ ] I   700 E   1/100 B  700/2129 LR 0.0010 TR 4.8236 (31.2s) [ ] VAL 6.6709 ( 5.2s) TEST 6.6773 ( 4.9s) V_PPL  789.12 ( 0.0s) T_PPL  794.19 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT  526.9s
+[ ] I   750 E   1/100 B  750/2129 LR 0.0010 TR 4.5894 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT  558.3s
+[ ] I   800 E   1/100 B  800/2129 LR 0.0010 TR 4.3332 (31.3s) [ ] VAL 7.1050 ( 5.0s) TEST 7.0887 ( 5.1s) V_PPL 1218.02 ( 0.0s) T_PPL 1198.31 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT  602.0s
+[ ] I   850 E   1/100 B  850/2129 LR 0.0010 TR 4.0644 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT  633.3s
+[ ] I   900 E   1/100 B  900/2129 LR 0.0010 TR 3.8110 (31.3s) [ ] VAL 7.6010 ( 5.0s) TEST 7.5919 ( 5.2s) V_PPL 2000.17 ( 0.0s) T_PPL 1982.03 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT  677.0s
+[ ] I   950 E   1/100 B  950/2129 LR 0.0010 TR 3.5475 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT  708.3s
+[F] I  1000 E   1/100 B 1000/2129 LR 0.0010 TR 3.3019 (31.3s) [ ] VAL 8.1377 (50.5s) TEST 8.1264 (50.5s) V_PPL 3421.13 ( 0.0s) T_PPL 3382.55 ( 0.0s) SAMP  ( 2.3s) TI 134.5s, TT  842.8s
+[ ] I  1050 E   1/100 B 1050/2129 LR 0.0010 TR 3.0723 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT  874.1s
+[ ] I  1100 E   1/100 B 1100/2129 LR 0.0010 TR 2.8657 (31.3s) [ ] VAL 8.6815 ( 5.0s) TEST 8.6577 ( 5.1s) V_PPL 5892.70 ( 0.0s) T_PPL 5754.24 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT  917.8s
+[ ] I  1150 E   1/100 B 1150/2129 LR 0.0010 TR 2.6784 (31.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.2s, TT  949.1s
+[ ] I  1200 E   1/100 B 1200/2129 LR 0.0010 TR 2.5124 (31.3s) [ ] VAL 9.1323 ( 5.0s) TEST 9.1170 ( 5.2s) V_PPL 9249.50 ( 0.0s) T_PPL 9108.86 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT  992.6s
+[ ] I  1250 E   1/100 B 1250/2129 LR 0.0010 TR 2.3668 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 1024.0s
+[ ] I  1300 E   1/100 B 1300/2129 LR 0.0010 TR 2.2339 (31.3s) [ ] VAL 9.6002 ( 5.3s) TEST 9.5585 ( 4.9s) V_PPL 14767.72 ( 0.0s) T_PPL 14165.04 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 1067.6s
+[ ] I  1350 E   1/100 B 1350/2129 LR 0.0010 TR 2.1180 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 1099.1s
+[ ] I  1400 E   1/100 B 1400/2129 LR 0.0010 TR 2.0017 (31.4s) [ ] VAL 9.9758 ( 4.9s) TEST 9.9459 ( 5.2s) V_PPL 21499.51 ( 0.0s) T_PPL 20867.27 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 1142.8s
+[ ] I  1450 E   1/100 B 1450/2129 LR 0.0010 TR 1.9082 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1174.1s
+[F] I  1500 E   1/100 B 1500/2129 LR 0.0010 TR 1.8205 (31.3s) [ ] VAL 10.3321 (50.5s) TEST 10.3035 (50.6s) V_PPL 30701.18 ( 0.0s) T_PPL 29835.66 ( 0.0s) SAMP  ( 2.3s) TI 134.6s, TT 1308.7s
+[ ] I  1550 E   1/100 B 1550/2129 LR 0.0010 TR 1.7441 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1340.1s
+[ ] I  1600 E   1/100 B 1600/2129 LR 0.0010 TR 1.6793 (31.3s) [ ] VAL 10.6543 ( 5.2s) TEST 10.6102 ( 4.9s) V_PPL 42373.38 ( 0.0s) T_PPL 40546.41 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 1383.8s
+[ ] I  1650 E   1/100 B 1650/2129 LR 0.0010 TR 1.6045 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1415.2s
+[ ] I  1700 E   1/100 B 1700/2129 LR 0.0010 TR 1.5556 (31.3s) [ ] VAL 10.9560 ( 4.9s) TEST 10.9074 ( 5.2s) V_PPL 57295.80 ( 0.0s) T_PPL 54581.29 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 1458.8s
+[ ] I  1750 E   1/100 B 1750/2129 LR 0.0010 TR 1.5035 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1490.1s
+[ ] I  1800 E   1/100 B 1800/2129 LR 0.0010 TR 1.4502 (31.3s) [ ] VAL 11.1808 ( 5.1s) TEST 11.1611 ( 5.0s) V_PPL 71737.28 ( 0.0s) T_PPL 70343.62 ( 0.0s) SAMP  ( 2.2s) TI  43.5s, TT 1533.6s
+[ ] I  1850 E   1/100 B 1850/2129 LR 0.0010 TR 1.4041 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 1565.1s
+[ ] I  1900 E   1/100 B 1900/2129 LR 0.0010 TR 1.3692 (31.4s) [ ] VAL 11.4497 ( 5.1s) TEST 11.4205 ( 5.0s) V_PPL 93874.00 ( 0.0s) T_PPL 91173.24 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 1608.9s
+[ ] I  1950 E   1/100 B 1950/2129 LR 0.0010 TR 1.3296 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 1640.3s
+[F] I  2000 E   1/100 B 2000/2129 LR 0.0010 TR 1.2903 (31.3s) [ ] VAL 11.6683 (50.5s) TEST 11.6477 (50.5s) V_PPL 116811.55 ( 0.0s) T_PPL 114423.50 ( 0.0s) SAMP  ( 2.2s) TI 134.6s, TT 1774.9s
+[ ] I  2050 E   1/100 B 2050/2129 LR 0.0010 TR 1.2614 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1806.2s
+[ ] I  2100 E   1/100 B 2100/2129 LR 0.0010 TR 1.2310 (31.2s) [ ] VAL 11.8516 ( 5.1s) TEST 11.8121 ( 5.0s) V_PPL 140314.66 ( 0.0s) T_PPL 134876.10 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 1849.8s
+[ ] I  2150 E   2/100 B   21/2129 LR 0.0010 TR 1.1951 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1881.0s
+[ ] I  2200 E   2/100 B   71/2129 LR 0.0010 TR 1.1647 (31.3s) [ ] VAL 12.0621 ( 5.1s) TEST 12.0555 ( 5.0s) V_PPL 173189.56 ( 0.0s) T_PPL 172037.19 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 1924.8s
+[ ] I  2250 E   2/100 B  121/2129 LR 0.0010 TR 1.1389 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 1956.1s
+[ ] I  2300 E   2/100 B  171/2129 LR 0.0010 TR 1.1160 (31.3s) [ ] VAL 12.2216 ( 4.9s) TEST 12.2003 ( 5.3s) V_PPL 203131.62 ( 0.0s) T_PPL 198857.49 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 1999.7s
+[ ] I  2350 E   2/100 B  221/2129 LR 0.0010 TR 1.0919 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2031.0s
+[ ] I  2400 E   2/100 B  271/2129 LR 0.0010 TR 1.0695 (31.2s) [ ] VAL 12.3923 ( 5.2s) TEST 12.3689 ( 4.9s) V_PPL 240947.88 ( 0.0s) T_PPL 235377.84 ( 0.0s) SAMP  ( 2.3s) TI  43.6s, TT 2074.6s
+[ ] I  2450 E   2/100 B  321/2129 LR 0.0010 TR 1.0546 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2106.0s
+[F] I  2500 E   2/100 B  371/2129 LR 0.0010 TR 1.0337 (31.3s) [ ] VAL 12.4995 (50.4s) TEST 12.4667 (50.5s) V_PPL 268198.61 ( 0.0s) T_PPL 259545.37 ( 0.0s) SAMP  ( 2.3s) TI 134.5s, TT 2240.5s
+[ ] I  2550 E   2/100 B  421/2129 LR 0.0010 TR 1.0175 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 2271.8s
+[ ] I  2600 E   2/100 B  471/2129 LR 0.0010 TR 0.9994 (31.2s) [ ] VAL 12.7188 ( 4.9s) TEST 12.6574 ( 5.2s) V_PPL 333952.32 ( 0.0s) T_PPL 314094.43 ( 0.0s) SAMP  ( 2.2s) TI  43.5s, TT 2315.4s
+[ ] I  2650 E   2/100 B  521/2129 LR 0.0010 TR 0.9832 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2346.7s
+[ ] I  2700 E   2/100 B  571/2129 LR 0.0010 TR 0.9670 (31.3s) [ ] VAL 12.8103 ( 5.2s) TEST 12.7944 ( 4.9s) V_PPL 365959.72 ( 0.0s) T_PPL 360193.38 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 2390.3s
+[ ] I  2750 E   2/100 B  621/2129 LR 0.0010 TR 0.9533 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2421.7s
+[ ] I  2800 E   2/100 B  671/2129 LR 0.0010 TR 0.9385 (31.4s) [ ] VAL 12.9320 ( 5.1s) TEST 12.9037 ( 5.1s) V_PPL 413309.13 ( 0.0s) T_PPL 401806.75 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 2465.5s
+[ ] I  2850 E   2/100 B  721/2129 LR 0.0010 TR 0.9249 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2496.7s
+[ ] I  2900 E   2/100 B  771/2129 LR 0.0010 TR 0.9126 (31.2s) [ ] VAL 13.0689 ( 5.0s) TEST 13.0368 ( 5.2s) V_PPL 473964.35 ( 0.0s) T_PPL 458983.83 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 2540.3s
+[ ] I  2950 E   2/100 B  821/2129 LR 0.0010 TR 0.8970 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2571.6s
+[F] I  3000 E   2/100 B  871/2129 LR 0.0010 TR 0.8843 (31.3s) [ ] VAL 13.2360 (50.5s) TEST 13.1968 (50.5s) V_PPL 560169.44 ( 0.0s) T_PPL 538616.59 ( 0.0s) SAMP  ( 2.3s) TI 134.6s, TT 2706.1s
+[ ] I  3050 E   2/100 B  921/2129 LR 0.0010 TR 0.8711 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 2737.5s
+[ ] I  3100 E   2/100 B  971/2129 LR 0.0010 TR 0.8638 (31.3s) [ ] VAL 13.2778 ( 5.0s) TEST 13.2510 ( 5.1s) V_PPL 584085.33 ( 0.0s) T_PPL 568627.90 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 2781.3s
+[ ] I  3150 E   2/100 B 1021/2129 LR 0.0010 TR 0.8511 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2812.6s
+[ ] I  3200 E   2/100 B 1071/2129 LR 0.0010 TR 0.8400 (31.2s) [ ] VAL 13.3970 ( 5.0s) TEST 13.3409 ( 5.2s) V_PPL 658001.61 ( 0.0s) T_PPL 622131.53 ( 0.0s) SAMP  ( 2.2s) TI  43.5s, TT 2856.1s
+[ ] I  3250 E   2/100 B 1121/2129 LR 0.0010 TR 0.8302 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 2887.5s
+[ ] I  3300 E   2/100 B 1171/2129 LR 0.0010 TR 0.8202 (31.2s) [ ] VAL 13.4913 ( 5.3s) TEST 13.4442 ( 4.8s) V_PPL 723100.44 ( 0.0s) T_PPL 689859.47 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 2931.1s
+[ ] I  3350 E   2/100 B 1221/2129 LR 0.0010 TR 0.8079 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 2962.5s
+[ ] I  3400 E   2/100 B 1271/2129 LR 0.0010 TR 0.7982 (31.3s) [ ] VAL 13.5467 ( 5.0s) TEST 13.5328 ( 5.2s) V_PPL 764302.68 ( 0.0s) T_PPL 753749.98 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 3006.2s
+[ ] I  3450 E   2/100 B 1321/2129 LR 0.0010 TR 0.7928 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 3037.5s
+[F] I  3500 E   2/100 B 1371/2129 LR 0.0010 TR 0.7807 (31.2s) [ ] VAL 13.6716 (50.5s) TEST 13.6362 (50.5s) V_PPL 865956.50 ( 0.0s) T_PPL 835826.76 ( 0.0s) SAMP  ( 2.2s) TI 134.5s, TT 3172.0s
+[ ] I  3550 E   2/100 B 1421/2129 LR 0.0010 TR 0.7733 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 3203.3s
+[ ] I  3600 E   2/100 B 1471/2129 LR 0.0010 TR 0.7631 (31.3s) [ ] VAL 13.7574 ( 5.3s) TEST 13.6695 ( 4.9s) V_PPL 943546.08 ( 0.0s) T_PPL 864153.58 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 3247.0s
+[ ] I  3650 E   2/100 B 1521/2129 LR 0.0010 TR 0.7574 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 3278.3s
+[ ] I  3700 E   2/100 B 1571/2129 LR 0.0010 TR 0.7485 (31.6s) [ ] VAL 13.8799 ( 5.3s) TEST 13.8373 ( 5.7s) V_PPL 1066461.87 ( 0.0s) T_PPL 1022065.62 ( 0.0s) SAMP  ( 2.4s) TI  45.0s, TT 3323.4s
+[ ] I  3750 E   2/100 B 1621/2129 LR 0.0010 TR 0.7437 (33.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.6s, TT 3356.9s
+[ ] I  3800 E   2/100 B 1671/2129 LR 0.0010 TR 0.7342 (31.3s) [ ] VAL 13.9093 ( 5.1s) TEST 13.8960 ( 5.0s) V_PPL 1098307.93 ( 0.0s) T_PPL 1083856.89 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 3400.5s
+[ ] I  3850 E   2/100 B 1721/2129 LR 0.0010 TR 0.7298 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 3432.0s
+[ ] I  3900 E   2/100 B 1771/2129 LR 0.0010 TR 0.7184 (31.3s) [ ] VAL 14.0273 ( 5.1s) TEST 14.0159 ( 5.0s) V_PPL 1235907.22 ( 0.0s) T_PPL 1221836.02 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 3475.7s
+[ ] I  3950 E   2/100 B 1821/2129 LR 0.0010 TR 0.7137 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 3507.1s
+[F] I  4000 E   2/100 B 1871/2129 LR 0.0010 TR 0.7051 (31.3s) [ ] VAL 14.1276 (50.5s) TEST 14.0845 (50.5s) V_PPL 1366334.72 ( 0.0s) T_PPL 1308673.97 ( 0.0s) SAMP  ( 2.3s) TI 134.6s, TT 3641.7s
+[ ] I  4050 E   2/100 B 1921/2129 LR 0.0010 TR 0.6987 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 3673.0s
+[ ] I  4100 E   2/100 B 1971/2129 LR 0.0010 TR 0.6931 (31.3s) [ ] VAL 14.1954 ( 5.2s) TEST 14.1426 ( 5.0s) V_PPL 1462105.72 ( 0.0s) T_PPL 1386974.35 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 3716.7s
+[ ] I  4150 E   2/100 B 2021/2129 LR 0.0010 TR 0.6880 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 3748.1s
+[ ] I  4200 E   2/100 B 2071/2129 LR 0.0010 TR 0.6789 (31.3s) [ ] VAL 14.2555 ( 5.1s) TEST 14.2084 ( 5.1s) V_PPL 1552768.46 ( 0.0s) T_PPL 1481297.50 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 3791.9s
+[ ] I  4250 E   2/100 B 2121/2129 LR 0.0010 TR 0.6751 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 3823.2s
+[ ] I  4300 E   3/100 B   42/2129 LR 0.0010 TR 0.6657 (31.2s) [ ] VAL 14.3397 ( 4.9s) TEST 14.2970 ( 5.2s) V_PPL 1689040.49 ( 0.0s) T_PPL 1618455.52 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 3866.8s
+[ ] I  4350 E   3/100 B   92/2129 LR 0.0010 TR 0.6600 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 3898.1s
+[ ] I  4400 E   3/100 B  142/2129 LR 0.0010 TR 0.6522 (31.3s) [ ] VAL 14.4270 ( 5.3s) TEST 14.3791 ( 4.9s) V_PPL 1843183.40 ( 0.0s) T_PPL 1757021.14 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 3941.8s
+[ ] I  4450 E   3/100 B  192/2129 LR 0.0010 TR 0.6499 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 3973.2s
+[F] I  4500 E   3/100 B  242/2129 LR 0.0010 TR 0.6423 (31.3s) [ ] VAL 14.4733 (50.4s) TEST 14.4118 (50.4s) V_PPL 1930475.99 ( 0.0s) T_PPL 1815429.80 ( 0.0s) SAMP  ( 2.4s) TI 134.5s, TT 4107.7s
+[ ] I  4550 E   3/100 B  292/2129 LR 0.0010 TR 0.6378 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 4139.1s
+[ ] I  4600 E   3/100 B  342/2129 LR 0.0010 TR 0.6332 (31.2s) [ ] VAL 14.5004 ( 4.9s) TEST 14.4401 ( 5.2s) V_PPL 1983559.00 ( 0.0s) T_PPL 1867513.98 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 4182.7s
+[ ] I  4650 E   3/100 B  392/2129 LR 0.0010 TR 0.6268 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 4214.0s
+[ ] I  4700 E   3/100 B  442/2129 LR 0.0010 TR 0.6234 (31.2s) [ ] VAL 14.5931 ( 5.3s) TEST 14.5804 ( 4.8s) V_PPL 2176187.71 ( 0.0s) T_PPL 2148674.32 ( 0.0s) SAMP  ( 2.3s) TI  43.6s, TT 4257.6s
+[ ] I  4750 E   3/100 B  492/2129 LR 0.0010 TR 0.6191 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 4288.9s
+[ ] I  4800 E   3/100 B  542/2129 LR 0.0010 TR 0.6128 (31.3s) [ ] VAL 14.6938 ( 5.0s) TEST 14.6724 ( 5.3s) V_PPL 2406728.09 ( 0.0s) T_PPL 2355756.08 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 4332.8s
+[ ] I  4850 E   3/100 B  592/2129 LR 0.0010 TR 0.6105 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 4364.2s
+[ ] I  4900 E   3/100 B  642/2129 LR 0.0010 TR 0.6056 (31.8s) [ ] VAL 14.7224 ( 5.2s) TEST 14.6749 ( 5.1s) V_PPL 2476607.68 ( 0.0s) T_PPL 2361678.88 ( 0.0s) SAMP  ( 2.3s) TI  44.4s, TT 4408.6s
+[ ] I  4950 E   3/100 B  692/2129 LR 0.0010 TR 0.6010 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 4440.3s
+[F] I  5000 E   3/100 B  742/2129 LR 0.0010 TR 0.5945 (31.6s) [ ] VAL 14.7983 (49.3s) TEST 14.7681 (49.3s) V_PPL 2671891.55 ( 0.0s) T_PPL 2592392.80 ( 0.0s) SAMP  ( 2.4s) TI 132.7s, TT 4572.9s
+[ ] I  5050 E   3/100 B  792/2129 LR 0.0010 TR 0.5915 (29.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  29.7s, TT 4602.7s
+[ ] I  5100 E   3/100 B  842/2129 LR 0.0010 TR 0.5880 (29.6s) [ ] VAL 14.8390 ( 4.8s) TEST 14.8407 ( 4.9s) V_PPL 2782910.18 ( 0.0s) T_PPL 2787519.85 ( 0.0s) SAMP  ( 2.3s) TI  41.5s, TT 4644.2s
+[ ] I  5150 E   3/100 B  892/2129 LR 0.0010 TR 0.5819 (29.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  29.6s, TT 4673.8s
+[ ] I  5200 E   3/100 B  942/2129 LR 0.0010 TR 0.5798 (29.6s) [ ] VAL 14.9428 ( 4.9s) TEST 14.8717 ( 4.8s) V_PPL 3087205.24 ( 0.0s) T_PPL 2875258.48 ( 0.0s) SAMP  ( 2.4s) TI  41.8s, TT 4715.6s
+[ ] I  5250 E   3/100 B  992/2129 LR 0.0010 TR 0.5756 (30.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.1s, TT 4745.7s
+[ ] I  5300 E   3/100 B 1042/2129 LR 0.0010 TR 0.5688 (29.5s) [ ] VAL 14.9576 ( 4.7s) TEST 14.9042 ( 4.8s) V_PPL 3133340.14 ( 0.0s) T_PPL 2970445.99 ( 0.0s) SAMP  ( 2.3s) TI  41.4s, TT 4787.0s
+[ ] I  5350 E   3/100 B 1092/2129 LR 0.0010 TR 0.5652 (30.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.3s, TT 4817.4s
+[ ] I  5400 E   3/100 B 1142/2129 LR 0.0010 TR 0.5646 (29.6s) [ ] VAL 15.0929 ( 4.8s) TEST 15.0187 ( 4.9s) V_PPL 3587315.55 ( 0.0s) T_PPL 3330672.09 ( 0.0s) SAMP  ( 2.2s) TI  41.5s, TT 4858.8s
+[ ] I  5450 E   3/100 B 1192/2129 LR 0.0010 TR 0.5606 (30.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.4s, TT 4889.2s
+[F] I  5500 E   3/100 B 1242/2129 LR 0.0010 TR 0.5565 (29.9s) [ ] VAL 15.0455 (47.8s) TEST 14.9862 (49.3s) V_PPL 3421142.25 ( 0.0s) T_PPL 3224163.85 ( 0.0s) SAMP  ( 2.4s) TI 129.2s, TT 5018.5s
+[ ] I  5550 E   3/100 B 1292/2129 LR 0.0010 TR 0.5514 (29.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  29.8s, TT 5048.3s
+[ ] I  5600 E   3/100 B 1342/2129 LR 0.0010 TR 0.5469 (30.2s) [ ] VAL 15.1545 ( 4.8s) TEST 15.1123 ( 4.8s) V_PPL 3815004.87 ( 0.0s) T_PPL 3657543.69 ( 0.0s) SAMP  ( 2.3s) TI  42.1s, TT 5090.4s
+[ ] I  5650 E   3/100 B 1392/2129 LR 0.0010 TR 0.5445 (29.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  29.6s, TT 5120.0s
+[ ] I  5700 E   3/100 B 1442/2129 LR 0.0010 TR 0.5406 (29.9s) [ ] VAL 15.2404 ( 4.7s) TEST 15.1841 ( 4.8s) V_PPL 4157195.09 ( 0.0s) T_PPL 3929878.56 ( 0.0s) SAMP  ( 2.2s) TI  41.6s, TT 5161.6s
+[ ] I  5750 E   3/100 B 1492/2129 LR 0.0010 TR 0.5357 (30.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.4s, TT 5192.0s
+[ ] I  5800 E   3/100 B 1542/2129 LR 0.0010 TR 0.5367 (30.9s) [ ] VAL 15.1943 ( 4.8s) TEST 15.1629 ( 4.8s) V_PPL 3970225.41 ( 0.0s) T_PPL 3847213.20 ( 0.0s) SAMP  ( 2.2s) TI  42.8s, TT 5234.7s
+[ ] I  5850 E   3/100 B 1592/2129 LR 0.0010 TR 0.5292 (31.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.2s, TT 5265.9s
+[ ] I  5900 E   3/100 B 1642/2129 LR 0.0010 TR 0.5257 (30.2s) [ ] VAL 15.3136 ( 5.0s) TEST 15.3124 ( 4.9s) V_PPL 4473112.80 ( 0.0s) T_PPL 4467944.27 ( 0.0s) SAMP  ( 2.3s) TI  42.3s, TT 5308.3s
+[ ] I  5950 E   3/100 B 1692/2129 LR 0.0010 TR 0.5225 (30.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.0s, TT 5338.3s
+[F] I  6000 E   3/100 B 1742/2129 LR 0.0010 TR 0.5201 (30.3s) [ ] VAL 15.3602 (49.3s) TEST 15.3015 (49.0s) V_PPL 4686419.16 ( 0.0s) T_PPL 4419395.55 ( 0.0s) SAMP  ( 2.3s) TI 130.8s, TT 5469.1s
+[ ] I  6050 E   3/100 B 1792/2129 LR 0.0010 TR 0.5159 (30.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  30.6s, TT 5499.7s
+[ ] I  6100 E   3/100 B 1842/2129 LR 0.0010 TR 0.5135 (30.1s) [ ] VAL 15.3715 ( 4.9s) TEST 15.3269 ( 4.9s) V_PPL 4739963.19 ( 0.0s) T_PPL 4533160.68 ( 0.0s) SAMP  ( 2.3s) TI  42.1s, TT 5541.8s
+[ ] I  6150 E   3/100 B 1892/2129 LR 0.0010 TR 0.5126 (31.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.8s, TT 5573.6s
+[ ] I  6200 E   3/100 B 1942/2129 LR 0.0010 TR 0.5069 (31.5s) [ ] VAL 15.4720 ( 4.9s) TEST 15.4198 ( 5.2s) V_PPL 5240935.35 ( 0.0s) T_PPL 4974483.25 ( 0.0s) SAMP  ( 2.2s) TI  43.9s, TT 5617.5s
+[ ] I  6250 E   3/100 B 1992/2129 LR 0.0010 TR 0.5032 (32.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.1s, TT 5649.6s
+[ ] I  6300 E   3/100 B 2042/2129 LR 0.0010 TR 0.5001 (31.7s) [ ] VAL 15.5053 ( 5.3s) TEST 15.4078 ( 5.0s) V_PPL 5418604.74 ( 0.0s) T_PPL 4915009.31 ( 0.0s) SAMP  ( 2.4s) TI  44.3s, TT 5693.9s
+[ ] I  6350 E   3/100 B 2092/2129 LR 0.0010 TR 0.4968 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 5725.3s
+[ ] I  6400 E   4/100 B   13/2129 LR 0.0010 TR 0.4925 (31.3s) [ ] VAL 15.5538 ( 4.9s) TEST 15.4999 ( 5.3s) V_PPL 5687371.38 ( 0.0s) T_PPL 5388942.95 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 5768.9s
+[ ] I  6450 E   4/100 B   63/2129 LR 0.0010 TR 0.4872 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 5800.2s
+[F] I  6500 E   4/100 B  113/2129 LR 0.0010 TR 0.4832 (31.3s) [ ] VAL 15.6604 (50.5s) TEST 15.6079 (50.4s) V_PPL 6327315.90 ( 0.0s) T_PPL 6004071.81 ( 0.0s) SAMP  ( 2.2s) TI 134.5s, TT 5934.6s
+[ ] I  6550 E   4/100 B  163/2129 LR 0.0010 TR 0.4842 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 5966.0s
+[ ] I  6600 E   4/100 B  213/2129 LR 0.0010 TR 0.4795 (31.4s) [ ] VAL 15.6279 ( 5.1s) TEST 15.6029 ( 5.0s) V_PPL 6125324.31 ( 0.0s) T_PPL 5973876.99 ( 0.0s) SAMP  ( 2.4s) TI  43.9s, TT 6009.9s
+[ ] I  6650 E   4/100 B  263/2129 LR 0.0010 TR 0.4786 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 6041.6s
+[ ] I  6700 E   4/100 B  313/2129 LR 0.0010 TR 0.4763 (31.3s) [ ] VAL 15.6711 ( 4.9s) TEST 15.6336 ( 5.2s) V_PPL 6395315.20 ( 0.0s) T_PPL 6160032.90 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 6085.2s
+[ ] I  6750 E   4/100 B  363/2129 LR 0.0010 TR 0.4742 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 6116.4s
+[ ] I  6800 E   4/100 B  413/2129 LR 0.0010 TR 0.4700 (31.2s) [ ] VAL 15.7549 ( 5.2s) TEST 15.7082 ( 4.9s) V_PPL 6954530.17 ( 0.0s) T_PPL 6637046.86 ( 0.0s) SAMP  ( 2.4s) TI  43.7s, TT 6160.1s
+[ ] I  6850 E   4/100 B  463/2129 LR 0.0010 TR 0.4667 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 6191.4s
+[ ] I  6900 E   4/100 B  513/2129 LR 0.0010 TR 0.4628 (31.3s) [ ] VAL 15.8552 ( 5.0s) TEST 15.7832 ( 5.1s) V_PPL 7687865.66 ( 0.0s) T_PPL 7154169.17 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 6235.1s
+[ ] I  6950 E   4/100 B  563/2129 LR 0.0010 TR 0.4622 (31.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.2s, TT 6266.3s
+[F] I  7000 E   4/100 B  613/2129 LR 0.0010 TR 0.4586 (31.2s) [ ] VAL 15.8731 (50.4s) TEST 15.8180 (50.5s) V_PPL 7827055.62 ( 0.0s) T_PPL 7407788.12 ( 0.0s) SAMP  ( 2.3s) TI 134.4s, TT 6400.8s
+[ ] I  7050 E   4/100 B  663/2129 LR 0.0010 TR 0.4600 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 6432.1s
+[ ] I  7100 E   4/100 B  713/2129 LR 0.0010 TR 0.4557 (31.3s) [ ] VAL 15.8569 ( 5.2s) TEST 15.7864 ( 4.9s) V_PPL 7701126.86 ( 0.0s) T_PPL 7177046.96 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 6475.8s
+[ ] I  7150 E   4/100 B  763/2129 LR 0.0010 TR 0.4513 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 6507.6s
+[ ] I  7200 E   4/100 B  813/2129 LR 0.0010 TR 0.4507 (31.8s) [ ] VAL 15.9971 ( 5.2s) TEST 15.9414 ( 5.3s) V_PPL 8860003.68 ( 0.0s) T_PPL 8380489.78 ( 0.0s) SAMP  ( 2.3s) TI  44.6s, TT 6552.1s
+[ ] I  7250 E   4/100 B  863/2129 LR 0.0010 TR 0.4477 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 6583.8s
+[ ] I  7300 E   4/100 B  913/2129 LR 0.0010 TR 0.4450 (31.5s) [ ] VAL 16.0699 ( 5.4s) TEST 15.9749 ( 5.1s) V_PPL 9529401.72 ( 0.0s) T_PPL 8665534.66 ( 0.0s) SAMP  ( 2.8s) TI  44.8s, TT 6628.6s
+[ ] I  7350 E   4/100 B  963/2129 LR 0.0010 TR 0.4421 (32.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.0s, TT 6660.6s
+[ ] I  7400 E   4/100 B 1013/2129 LR 0.0010 TR 0.4403 (33.6s) [ ] VAL 16.0206 ( 5.5s) TEST 15.9608 ( 5.4s) V_PPL 9071165.72 ( 0.0s) T_PPL 8544541.44 ( 0.0s) SAMP  ( 2.3s) TI  46.7s, TT 6707.3s
+[ ] I  7450 E   4/100 B 1063/2129 LR 0.0010 TR 0.4373 (33.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.6s, TT 6740.9s
+[F] I  7500 E   4/100 B 1113/2129 LR 0.0010 TR 0.4350 (32.4s) [ ] VAL 16.0496 (52.8s) TEST 15.9983 (53.1s) V_PPL 9338237.37 ( 0.0s) T_PPL 8870987.26 ( 0.0s) SAMP  ( 2.3s) TI 140.6s, TT 6881.5s
+[ ] I  7550 E   4/100 B 1163/2129 LR 0.0010 TR 0.4339 (34.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.4s, TT 6916.0s
+[ ] I  7600 E   4/100 B 1213/2129 LR 0.0010 TR 0.4315 (33.0s) [ ] VAL 16.1031 ( 5.5s) TEST 16.0421 ( 5.4s) V_PPL 9851225.91 ( 0.0s) T_PPL 9268458.92 ( 0.0s) SAMP  ( 2.4s) TI  46.3s, TT 6962.3s
+[ ] I  7650 E   4/100 B 1263/2129 LR 0.0010 TR 0.4285 (33.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.1s, TT 6995.4s
+[ ] I  7700 E   4/100 B 1313/2129 LR 0.0010 TR 0.4260 (32.8s) [ ] VAL 16.1715 ( 5.4s) TEST 16.1052 ( 5.8s) V_PPL 10548153.60 ( 0.0s) T_PPL 9871755.91 ( 0.0s) SAMP  ( 2.4s) TI  46.3s, TT 7041.7s
+[ ] I  7750 E   4/100 B 1363/2129 LR 0.0010 TR 0.4231 (32.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.9s, TT 7074.7s
+[ ] I  7800 E   4/100 B 1413/2129 LR 0.0010 TR 0.4213 (33.4s) [ ] VAL 16.1769 ( 5.1s) TEST 16.1284 ( 5.3s) V_PPL 10605631.66 ( 0.0s) T_PPL 10103414.46 ( 0.0s) SAMP  ( 2.2s) TI  46.0s, TT 7120.7s
+[ ] I  7850 E   4/100 B 1463/2129 LR 0.0010 TR 0.4203 (31.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.8s, TT 7152.5s
+[ ] I  7900 E   4/100 B 1513/2129 LR 0.0010 TR 0.4153 (32.1s) [ ] VAL 16.2919 ( 5.3s) TEST 16.2216 ( 5.0s) V_PPL 11897845.09 ( 0.0s) T_PPL 11090767.09 ( 0.0s) SAMP  ( 2.3s) TI  44.7s, TT 7197.2s
+[ ] I  7950 E   4/100 B 1563/2129 LR 0.0010 TR 0.4162 (31.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.9s, TT 7229.1s
+[F] I  8000 E   4/100 B 1613/2129 LR 0.0010 TR 0.4137 (31.8s) [ ] VAL 16.3078 (51.3s) TEST 16.2520 (51.3s) V_PPL 12089368.56 ( 0.0s) T_PPL 11432506.29 ( 0.0s) SAMP  ( 2.3s) TI 136.6s, TT 7365.7s
+[ ] I  8050 E   4/100 B 1663/2129 LR 0.0010 TR 0.4105 (31.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.8s, TT 7397.4s
+[ ] I  8100 E   4/100 B 1713/2129 LR 0.0010 TR 0.4105 (31.7s) [ ] VAL 16.3126 ( 5.4s) TEST 16.2598 ( 4.9s) V_PPL 12146930.13 ( 0.0s) T_PPL 11522919.73 ( 0.0s) SAMP  ( 2.3s) TI  44.3s, TT 7441.7s
+[ ] I  8150 E   4/100 B 1763/2129 LR 0.0010 TR 0.4067 (31.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.8s, TT 7473.5s
+[ ] I  8200 E   4/100 B 1813/2129 LR 0.0010 TR 0.4055 (31.8s) [ ] VAL 16.4432 ( 5.0s) TEST 16.4055 ( 5.4s) V_PPL 13842281.80 ( 0.0s) T_PPL 13329163.67 ( 0.0s) SAMP  ( 2.3s) TI  44.4s, TT 7517.9s
+[ ] I  8250 E   4/100 B 1863/2129 LR 0.0010 TR 0.4028 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 7549.6s
+[ ] I  8300 E   4/100 B 1913/2129 LR 0.0010 TR 0.4017 (31.7s) [ ] VAL 16.3311 ( 5.3s) TEST 16.2972 ( 5.0s) V_PPL 12373642.08 ( 0.0s) T_PPL 11961207.43 ( 0.0s) SAMP  ( 2.3s) TI  44.3s, TT 7593.9s
+[ ] I  8350 E   4/100 B 1963/2129 LR 0.0010 TR 0.4005 (31.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.9s, TT 7625.7s
+[ ] I  8400 E   4/100 B 2013/2129 LR 0.0010 TR 0.3992 (31.8s) [ ] VAL 16.4251 ( 5.0s) TEST 16.3619 ( 5.3s) V_PPL 13593360.89 ( 0.0s) T_PPL 12761296.74 ( 0.0s) SAMP  ( 2.3s) TI  44.4s, TT 7670.1s
+[ ] I  8450 E   4/100 B 2063/2129 LR 0.0010 TR 0.3941 (31.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.9s, TT 7702.0s
+[F] I  8500 E   4/100 B 2113/2129 LR 0.0010 TR 0.3931 (31.7s) [ ] VAL 16.4627 (51.2s) TEST 16.4186 (51.2s) V_PPL 14114642.37 ( 0.0s) T_PPL 13504774.47 ( 0.0s) SAMP  ( 2.4s) TI 136.4s, TT 7838.4s
+[ ] I  8550 E   5/100 B   34/2129 LR 0.0010 TR 0.3897 (31.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.8s, TT 7870.2s
+[ ] I  8600 E   5/100 B   84/2129 LR 0.0010 TR 0.3848 (31.8s) [ ] VAL 16.5484 ( 4.9s) TEST 16.4781 ( 5.3s) V_PPL 15376982.40 ( 0.0s) T_PPL 14334047.55 ( 0.0s) SAMP  ( 2.2s) TI  44.3s, TT 7914.5s
+[ ] I  8650 E   5/100 B  134/2129 LR 0.0010 TR 0.3856 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 7946.2s
+[ ] I  8700 E   5/100 B  184/2129 LR 0.0010 TR 0.3843 (31.7s) [ ] VAL 16.6289 ( 5.3s) TEST 16.5723 ( 4.9s) V_PPL 16665552.10 ( 0.0s) T_PPL 15749285.20 ( 0.0s) SAMP  ( 2.3s) TI  44.2s, TT 7990.4s
+[ ] I  8750 E   5/100 B  234/2129 LR 0.0010 TR 0.3804 (31.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.8s, TT 8022.2s
+[ ] I  8800 E   5/100 B  284/2129 LR 0.0010 TR 0.3806 (31.6s) [ ] VAL 16.6548 ( 4.9s) TEST 16.6049 ( 5.2s) V_PPL 17104345.01 ( 0.0s) T_PPL 16271165.20 ( 0.0s) SAMP  ( 2.2s) TI  43.9s, TT 8066.1s
+[ ] I  8850 E   5/100 B  334/2129 LR 0.0010 TR 0.3785 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8097.5s
+[ ] I  8900 E   5/100 B  384/2129 LR 0.0010 TR 0.3766 (31.3s) [ ] VAL 16.6404 ( 5.1s) TEST 16.6041 ( 5.1s) V_PPL 16858701.12 ( 0.0s) T_PPL 16257421.45 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 8141.2s
+[ ] I  8950 E   5/100 B  434/2129 LR 0.0010 TR 0.3757 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 8172.8s
+[F] I  9000 E   5/100 B  484/2129 LR 0.0010 TR 0.3768 (31.4s) [ ] VAL 16.6612 (50.6s) TEST 16.6036 (50.7s) V_PPL 17213644.90 ( 0.0s) T_PPL 16249450.02 ( 0.0s) SAMP  ( 2.3s) TI 135.0s, TT 8307.8s
+[ ] I  9050 E   5/100 B  534/2129 LR 0.0010 TR 0.3738 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 8339.3s
+[ ] I  9100 E   5/100 B  584/2129 LR 0.0010 TR 0.3707 (31.4s) [ ] VAL 16.7132 ( 4.9s) TEST 16.6563 ( 5.3s) V_PPL 18132878.47 ( 0.0s) T_PPL 17129981.25 ( 0.0s) SAMP  ( 2.2s) TI  43.8s, TT 8383.0s
+[ ] I  9150 E   5/100 B  634/2129 LR 0.0010 TR 0.3688 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8414.4s
+[ ] I  9200 E   5/100 B  684/2129 LR 0.0010 TR 0.3680 (31.3s) [ ] VAL 16.7899 ( 5.2s) TEST 16.7411 ( 4.9s) V_PPL 19578203.66 ( 0.0s) T_PPL 18645133.27 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 8458.2s
+[ ] I  9250 E   5/100 B  734/2129 LR 0.0010 TR 0.3686 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8489.6s
+[ ] I  9300 E   5/100 B  784/2129 LR 0.0010 TR 0.3653 (31.5s) [ ] VAL 16.8463 ( 5.0s) TEST 16.7868 ( 5.1s) V_PPL 20714368.15 ( 0.0s) T_PPL 19518020.09 ( 0.0s) SAMP  ( 2.4s) TI  44.0s, TT 8533.7s
+[ ] I  9350 E   5/100 B  834/2129 LR 0.0010 TR 0.3637 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8565.1s
+[ ] I  9400 E   5/100 B  884/2129 LR 0.0010 TR 0.3612 (31.6s) [ ] VAL 16.8670 ( 5.1s) TEST 16.8169 ( 5.1s) V_PPL 21147264.92 ( 0.0s) T_PPL 20113075.53 ( 0.0s) SAMP  ( 2.2s) TI  44.0s, TT 8609.1s
+[ ] I  9450 E   5/100 B  934/2129 LR 0.0010 TR 0.3598 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8640.6s
+[F] I  9500 E   5/100 B  984/2129 LR 0.0010 TR 0.3598 (31.4s) [ ] VAL 16.8740 (50.6s) TEST 16.8248 (50.7s) V_PPL 21295933.06 ( 0.0s) T_PPL 20273566.96 ( 0.0s) SAMP  ( 2.4s) TI 135.1s, TT 8775.7s
+[ ] I  9550 E   5/100 B 1034/2129 LR 0.0010 TR 0.3565 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8807.1s
+[ ] I  9600 E   5/100 B 1084/2129 LR 0.0010 TR 0.3546 (31.4s) [ ] VAL 16.9559 ( 4.8s) TEST 16.8873 ( 5.3s) V_PPL 23112416.77 ( 0.0s) T_PPL 21580953.13 ( 0.0s) SAMP  ( 2.2s) TI  43.8s, TT 8850.9s
+[ ] I  9650 E   5/100 B 1134/2129 LR 0.0010 TR 0.3539 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 8882.4s
+[ ] I  9700 E   5/100 B 1184/2129 LR 0.0010 TR 0.3521 (31.4s) [ ] VAL 16.9710 ( 5.2s) TEST 16.8880 ( 4.9s) V_PPL 23464282.60 ( 0.0s) T_PPL 21595224.43 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 8926.2s
+[ ] I  9750 E   5/100 B 1234/2129 LR 0.0010 TR 0.3504 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 8957.7s
+[ ] I  9800 E   5/100 B 1284/2129 LR 0.0010 TR 0.3495 (31.4s) [ ] VAL 16.9836 ( 5.0s) TEST 16.9016 ( 5.1s) V_PPL 23760948.99 ( 0.0s) T_PPL 21892248.62 ( 0.0s) SAMP  ( 2.4s) TI  44.0s, TT 9001.6s
+[ ] I  9850 E   5/100 B 1334/2129 LR 0.0010 TR 0.3498 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 9033.0s
+[ ] I  9900 E   5/100 B 1384/2129 LR 0.0010 TR 0.3461 (31.4s) [ ] VAL 16.9814 ( 5.0s) TEST 16.9553 ( 5.1s) V_PPL 23710709.95 ( 0.0s) T_PPL 23098578.72 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 9076.8s
+[ ] I  9950 E   5/100 B 1434/2129 LR 0.0010 TR 0.3438 (32.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.1s, TT 9108.9s
+[F] I 10000 E   5/100 B 1484/2129 LR 0.0010 TR 0.3424 (31.4s) [ ] VAL 17.1308 (50.6s) TEST 17.0556 (50.7s) V_PPL 27531042.00 ( 0.0s) T_PPL 25535925.61 ( 0.0s) SAMP  ( 2.4s) TI 135.1s, TT 9244.0s
+[ ] I 10050 E   5/100 B 1534/2129 LR 0.0010 TR 0.3440 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 9275.5s
+[ ] I 10100 E   5/100 B 1584/2129 LR 0.0010 TR 0.3399 (31.4s) [ ] VAL 17.0982 ( 4.9s) TEST 17.0203 ( 5.3s) V_PPL 26648310.11 ( 0.0s) T_PPL 24649981.34 ( 0.0s) SAMP  ( 2.2s) TI  43.8s, TT 9319.3s
+[ ] I 10150 E   5/100 B 1634/2129 LR 0.0010 TR 0.3399 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 9350.6s
+[ ] I 10200 E   5/100 B 1684/2129 LR 0.0010 TR 0.3394 (31.3s) [ ] VAL 17.1512 ( 5.2s) TEST 17.0464 ( 4.9s) V_PPL 28098045.39 ( 0.0s) T_PPL 25302965.04 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 9394.3s
+[ ] I 10250 E   5/100 B 1734/2129 LR 0.0010 TR 0.3370 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 9425.7s
+[ ] I 10300 E   5/100 B 1784/2129 LR 0.0010 TR 0.3350 (31.4s) [ ] VAL 17.1776 ( 5.1s) TEST 17.1083 ( 5.1s) V_PPL 28849111.98 ( 0.0s) T_PPL 26917657.42 ( 0.0s) SAMP  ( 2.3s) TI  43.9s, TT 9469.6s
+[ ] I 10350 E   5/100 B 1834/2129 LR 0.0010 TR 0.3341 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 9501.0s
+[ ] I 10400 E   5/100 B 1884/2129 LR 0.0010 TR 0.3323 (31.3s) [ ] VAL 17.2275 ( 5.0s) TEST 17.1402 ( 5.1s) V_PPL 30326678.33 ( 0.0s) T_PPL 27790092.34 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 9544.7s
+[ ] I 10450 E   5/100 B 1934/2129 LR 0.0010 TR 0.3327 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 9576.1s
+[F] I 10500 E   5/100 B 1984/2129 LR 0.0010 TR 0.3296 (31.4s) [ ] VAL 17.2070 (50.6s) TEST 17.1353 (50.7s) V_PPL 29709726.07 ( 0.0s) T_PPL 27654403.84 ( 0.0s) SAMP  ( 2.4s) TI 135.0s, TT 9711.2s
+[ ] I 10550 E   5/100 B 2034/2129 LR 0.0010 TR 0.3278 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 9742.7s
+[ ] I 10600 E   5/100 B 2084/2129 LR 0.0010 TR 0.3278 (31.4s) [ ] VAL 17.2638 ( 4.9s) TEST 17.2004 ( 5.2s) V_PPL 31445231.80 ( 0.0s) T_PPL 29514786.76 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 9786.5s
+[ ] I 10650 E   6/100 B    5/2129 LR 0.0010 TR 0.3264 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 9817.8s
+[ ] I 10700 E   6/100 B   55/2129 LR 0.0010 TR 0.3212 (31.3s) [ ] VAL 17.2860 ( 5.1s) TEST 17.1968 ( 5.0s) V_PPL 32151707.81 ( 0.0s) T_PPL 29409222.73 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 9861.5s
+[ ] I 10750 E   6/100 B  105/2129 LR 0.0010 TR 0.3206 (31.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.5s, TT 9893.0s
+[ ] I 10800 E   6/100 B  155/2129 LR 0.0010 TR 0.3202 (31.4s) [ ] VAL 17.2415 ( 5.1s) TEST 17.1779 ( 5.0s) V_PPL 30752172.02 ( 0.0s) T_PPL 28859036.58 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 9936.8s
+[ ] I 10850 E   6/100 B  205/2129 LR 0.0010 TR 0.3190 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 9968.2s
+[ ] I 10900 E   6/100 B  255/2129 LR 0.0010 TR 0.3182 (31.3s) [ ] VAL 17.3710 ( 4.9s) TEST 17.3069 ( 5.3s) V_PPL 35004830.23 ( 0.0s) T_PPL 32832626.75 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 10011.8s
+[ ] I 10950 E   6/100 B  305/2129 LR 0.0010 TR 0.3173 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10043.2s
+[F] I 11000 E   6/100 B  355/2129 LR 0.0010 TR 0.3161 (31.3s) [ ] VAL 17.3740 (50.6s) TEST 17.2970 (50.6s) V_PPL 35110474.56 ( 0.0s) T_PPL 32507674.68 ( 0.0s) SAMP  ( 2.2s) TI 134.7s, TT 10177.9s
+[ ] I 11050 E   6/100 B  405/2129 LR 0.0010 TR 0.3148 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10209.3s
+[ ] I 11100 E   6/100 B  455/2129 LR 0.0010 TR 0.3137 (31.4s) [ ] VAL 17.4379 ( 5.1s) TEST 17.3552 ( 5.1s) V_PPL 37425884.95 ( 0.0s) T_PPL 34456582.88 ( 0.0s) SAMP  ( 2.3s) TI  43.9s, TT 10253.2s
+[ ] I 11150 E   6/100 B  505/2129 LR 0.0010 TR 0.3147 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 10284.5s
+[ ] I 11200 E   6/100 B  555/2129 LR 0.0010 TR 0.3127 (31.3s) [ ] VAL 17.4095 ( 4.9s) TEST 17.3674 ( 5.2s) V_PPL 36379668.12 ( 0.0s) T_PPL 34878413.06 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 10328.2s
+[ ] I 11250 E   6/100 B  605/2129 LR 0.0010 TR 0.3117 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 10359.5s
+[ ] I 11300 E   6/100 B  655/2129 LR 0.0010 TR 0.3098 (31.3s) [ ] VAL 17.4825 ( 5.3s) TEST 17.4171 ( 4.8s) V_PPL 39135262.75 ( 0.0s) T_PPL 36654956.92 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 10403.2s
+[ ] I 11350 E   6/100 B  705/2129 LR 0.0010 TR 0.3086 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10434.6s
+[ ] I 11400 E   6/100 B  755/2129 LR 0.0010 TR 0.3062 (31.3s) [ ] VAL 17.4696 ( 5.0s) TEST 17.4147 ( 5.2s) V_PPL 38631838.50 ( 0.0s) T_PPL 36567431.13 ( 0.0s) SAMP  ( 2.3s) TI  43.7s, TT 10478.3s
+[ ] I 11450 E   6/100 B  805/2129 LR 0.0010 TR 0.3049 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 10509.7s
+[F] I 11500 E   6/100 B  855/2129 LR 0.0010 TR 0.3055 (31.3s) [ ] VAL 17.6095 (50.5s) TEST 17.5301 (50.5s) V_PPL 44433104.34 ( 0.0s) T_PPL 41042147.11 ( 0.0s) SAMP  ( 2.2s) TI 134.5s, TT 10644.2s
+[ ] I 11550 E   6/100 B  905/2129 LR 0.0010 TR 0.3034 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10675.5s
+[ ] I 11600 E   6/100 B  955/2129 LR 0.0010 TR 0.3026 (31.3s) [ ] VAL 17.5652 ( 5.3s) TEST 17.4990 ( 4.9s) V_PPL 42508639.74 ( 0.0s) T_PPL 39786330.77 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 10719.3s
+[ ] I 11650 E   6/100 B 1005/2129 LR 0.0010 TR 0.3046 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10750.7s
+[ ] I 11700 E   6/100 B 1055/2129 LR 0.0010 TR 0.3002 (31.3s) [ ] VAL 17.5585 ( 4.9s) TEST 17.4915 ( 5.2s) V_PPL 42222912.72 ( 0.0s) T_PPL 39487463.12 ( 0.0s) SAMP  ( 2.2s) TI  43.7s, TT 10794.4s
+[ ] I 11750 E   6/100 B 1105/2129 LR 0.0010 TR 0.3003 (31.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.3s, TT 10825.7s
+[ ] I 11800 E   6/100 B 1155/2129 LR 0.0010 TR 0.2975 (31.3s) [ ] VAL 17.5569 ( 5.1s) TEST 17.5114 ( 5.0s) V_PPL 42158555.64 ( 0.0s) T_PPL 40282548.91 ( 0.0s) SAMP  ( 2.2s) TI  43.6s, TT 10869.3s
+[ ] I 11850 E   6/100 B 1205/2129 LR 0.0010 TR 0.2978 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10900.7s
+[ ] I 11900 E   6/100 B 1255/2129 LR 0.0010 TR 0.2962 (31.4s) [ ] VAL 17.6559 ( 5.2s) TEST 17.5841 ( 5.0s) V_PPL 46542523.51 ( 0.0s) T_PPL 43318520.79 ( 0.0s) SAMP  ( 2.3s) TI  43.8s, TT 10944.5s
+[ ] I 11950 E   6/100 B 1305/2129 LR 0.0010 TR 0.2967 (31.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.4s, TT 10976.0s
+[F] I 12000 E   6/100 B 1355/2129 LR 0.0010 TR 0.2942 (31.8s) [ ] VAL 17.6239 (49.7s) TEST 17.5574 (50.7s) V_PPL 45078990.51 ( 0.0s) T_PPL 42177996.93 ( 0.0s) SAMP  ( 2.2s) TI 134.5s, TT 11110.4s
+[ ] I 12050 E   6/100 B 1405/2129 LR 0.0010 TR 0.2936 (32.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.7s, TT 11143.2s
+[ ] I 12100 E   6/100 B 1455/2129 LR 0.0010 TR 0.2921 (35.1s) [ ] VAL 17.6065 ( 5.6s) TEST 17.5352 ( 5.2s) V_PPL 44300241.93 ( 0.0s) T_PPL 41253156.76 ( 0.0s) SAMP  ( 2.3s) TI  48.1s, TT 11191.3s
+[ ] I 12150 E   6/100 B 1505/2129 LR 0.0010 TR 0.2927 (31.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.7s, TT 11222.9s
+[ ] I 12200 E   6/100 B 1555/2129 LR 0.0010 TR 0.2911 (31.9s) [ ] VAL 17.6103 ( 5.2s) TEST 17.5720 ( 5.1s) V_PPL 44467150.40 ( 0.0s) T_PPL 42797551.94 ( 0.0s) SAMP  ( 2.3s) TI  44.4s, TT 11267.3s
+[ ] I 12250 E   6/100 B 1605/2129 LR 0.0010 TR 0.2904 (31.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.6s, TT 11299.0s
+[ ] I 12300 E   6/100 B 1655/2129 LR 0.0010 TR 0.2897 (33.9s) [ ] VAL 17.7522 ( 5.4s) TEST 17.6758 ( 5.4s) V_PPL 51248116.51 ( 0.0s) T_PPL 47480217.39 ( 0.0s) SAMP  ( 2.2s) TI  46.9s, TT 11345.9s
+[ ] I 12350 E   6/100 B 1705/2129 LR 0.0010 TR 0.2880 (35.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  35.3s, TT 11381.1s
+[ ] I 12400 E   6/100 B 1755/2129 LR 0.0010 TR 0.2866 (32.2s) [ ] VAL 17.7390 ( 4.8s) TEST 17.7020 ( 4.8s) V_PPL 50575165.62 ( 0.0s) T_PPL 48739680.17 ( 0.0s) SAMP  ( 2.8s) TI  44.5s, TT 11425.7s
+[ ] I 12450 E   6/100 B 1805/2129 LR 0.0010 TR 0.2875 (31.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  31.6s, TT 11457.3s
+[F] I 12500 E   6/100 B 1855/2129 LR 0.0010 TR 0.2838 (29.4s) [ ] VAL 17.7720 (54.8s) TEST 17.7256 (57.1s) V_PPL 52275117.82 ( 0.0s) T_PPL 49903538.87 ( 0.0s) SAMP  ( 2.3s) TI 143.6s, TT 11600.9s
+[ ] I 12550 E   6/100 B 1905/2129 LR 0.0010 TR 0.2843 (34.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.7s, TT 11635.6s
+[ ] I 12600 E   6/100 B 1955/2129 LR 0.0010 TR 0.2848 (34.6s) [ ] VAL 17.8081 ( 5.6s) TEST 17.7386 ( 5.7s) V_PPL 54197571.19 ( 0.0s) T_PPL 50558790.75 ( 0.0s) SAMP  ( 2.3s) TI  48.2s, TT 11683.8s
+[ ] I 12650 E   6/100 B 2005/2129 LR 0.0010 TR 0.2819 (34.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.6s, TT 11718.3s
+[ ] I 12700 E   6/100 B 2055/2129 LR 0.0010 TR 0.2821 (33.7s) [ ] VAL 17.8476 ( 5.4s) TEST 17.7559 ( 5.6s) V_PPL 56379529.03 ( 0.0s) T_PPL 51438484.13 ( 0.0s) SAMP  ( 2.3s) TI  47.1s, TT 11765.4s
+[ ] I 12750 E   6/100 B 2105/2129 LR 0.0010 TR 0.2808 (32.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.9s, TT 11798.4s
+[ ] I 12800 E   7/100 B   26/2129 LR 0.0010 TR 0.2786 (29.3s) [ ] VAL 17.9113 ( 5.7s) TEST 17.8488 ( 5.9s) V_PPL 60087206.79 ( 0.0s) T_PPL 56448844.33 ( 0.0s) SAMP  ( 2.4s) TI  43.2s, TT 11841.6s
+[ ] I 12850 E   7/100 B   76/2129 LR 0.0010 TR 0.2761 (34.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.6s, TT 11876.2s
+[ ] I 12900 E   7/100 B  126/2129 LR 0.0010 TR 0.2742 (35.2s) [ ] VAL 17.9473 ( 5.5s) TEST 17.8641 ( 5.5s) V_PPL 62289512.49 ( 0.0s) T_PPL 57317644.75 ( 0.0s) SAMP  ( 2.4s) TI  48.6s, TT 11924.8s
+[ ] I 12950 E   7/100 B  176/2129 LR 0.0010 TR 0.2765 (34.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.4s, TT 11959.1s
+[F] I 13000 E   7/100 B  226/2129 LR 0.0010 TR 0.2744 (32.0s) [ ] VAL 17.8983 (53.9s) TEST 17.8395 (53.3s) V_PPL 59307909.90 ( 0.0s) T_PPL 55921632.07 ( 0.0s) SAMP  ( 2.3s) TI 141.5s, TT 12100.6s
+[ ] I 13050 E   7/100 B  276/2129 LR 0.0010 TR 0.2731 (33.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.6s, TT 12134.2s
+[ ] I 13100 E   7/100 B  326/2129 LR 0.0010 TR 0.2740 (33.5s) [ ] VAL 17.9769 ( 5.5s) TEST 17.8835 ( 5.5s) V_PPL 64162346.03 ( 0.0s) T_PPL 58440714.79 ( 0.0s) SAMP  ( 2.3s) TI  46.8s, TT 12181.0s
+[ ] I 13150 E   7/100 B  376/2129 LR 0.0010 TR 0.2708 (33.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.3s, TT 12214.3s
+[ ] I 13200 E   7/100 B  426/2129 LR 0.0010 TR 0.2716 (33.2s) [ ] VAL 17.9918 ( 5.4s) TEST 17.8909 ( 5.4s) V_PPL 65126525.49 ( 0.0s) T_PPL 58872090.36 ( 0.0s) SAMP  ( 2.2s) TI  46.2s, TT 12260.6s
+[ ] I 13250 E   7/100 B  476/2129 LR 0.0010 TR 0.2709 (33.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.4s, TT 12293.9s
+[ ] I 13300 E   7/100 B  526/2129 LR 0.0010 TR 0.2701 (32.1s) [ ] VAL 18.0368 ( 5.8s) TEST 17.9498 ( 5.9s) V_PPL 68122856.30 ( 0.0s) T_PPL 62447405.44 ( 0.0s) SAMP  ( 2.4s) TI  46.3s, TT 12340.2s
+[ ] I 13350 E   7/100 B  576/2129 LR 0.0010 TR 0.2683 (33.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.4s, TT 12373.6s
+[ ] I 13400 E   7/100 B  626/2129 LR 0.0010 TR 0.2680 (32.9s) [ ] VAL 18.0515 ( 5.2s) TEST 17.9924 ( 5.2s) V_PPL 69133353.92 ( 0.0s) T_PPL 65166089.75 ( 0.0s) SAMP  ( 2.3s) TI  45.7s, TT 12419.3s
+[ ] I 13450 E   7/100 B  676/2129 LR 0.0010 TR 0.2679 (33.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.3s, TT 12452.6s
+[F] I 13500 E   7/100 B  726/2129 LR 0.0010 TR 0.2665 (32.7s) [ ] VAL 18.0914 (54.8s) TEST 17.9913 (54.3s) V_PPL 71944422.72 ( 0.0s) T_PPL 65093127.38 ( 0.0s) SAMP  ( 2.3s) TI 144.1s, TT 12596.7s
+[ ] I 13550 E   7/100 B  776/2129 LR 0.0010 TR 0.2660 (32.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.0s, TT 12628.7s
+[ ] I 13600 E   7/100 B  826/2129 LR 0.0010 TR 0.2650 (33.5s) [ ] VAL 18.0903 ( 5.5s) TEST 18.0315 ( 5.3s) V_PPL 71866470.25 ( 0.0s) T_PPL 67762605.23 ( 0.0s) SAMP  ( 2.3s) TI  46.6s, TT 12675.3s
+[ ] I 13650 E   7/100 B  876/2129 LR 0.0010 TR 0.2648 (33.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.6s, TT 12708.9s
+[ ] I 13700 E   7/100 B  926/2129 LR 0.0010 TR 0.2620 (34.5s) [ ] VAL 18.1671 ( 5.6s) TEST 18.0746 ( 6.6s) V_PPL 77599755.88 ( 0.0s) T_PPL 70748465.44 ( 0.0s) SAMP  ( 2.4s) TI  49.2s, TT 12758.1s
+[ ] I 13750 E   7/100 B  976/2129 LR 0.0010 TR 0.2630 (33.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.8s, TT 12791.9s
+[ ] I 13800 E   7/100 B 1026/2129 LR 0.0010 TR 0.2616 (34.8s) [ ] VAL 18.1673 ( 5.8s) TEST 18.0739 ( 5.0s) V_PPL 77620622.58 ( 0.0s) T_PPL 70696317.09 ( 0.0s) SAMP  ( 2.2s) TI  47.8s, TT 12839.7s
+[ ] I 13850 E   7/100 B 1076/2129 LR 0.0010 TR 0.2613 (32.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.6s, TT 12872.2s
+[ ] I 13900 E   7/100 B 1126/2129 LR 0.0010 TR 0.2606 (34.6s) [ ] VAL 18.1259 ( 5.2s) TEST 18.0414 ( 5.3s) V_PPL 74471388.20 ( 0.0s) T_PPL 68434866.54 ( 0.0s) SAMP  ( 3.4s) TI  48.5s, TT 12920.7s
+[ ] I 13950 E   7/100 B 1176/2129 LR 0.0010 TR 0.2611 (34.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.3s, TT 12955.1s
+[F] I 14000 E   7/100 B 1226/2129 LR 0.0010 TR 0.2594 (32.8s) [ ] VAL 18.1621 (53.5s) TEST 18.0858 (57.5s) V_PPL 77218233.79 ( 0.0s) T_PPL 71542869.20 ( 0.0s) SAMP  ( 2.4s) TI 146.2s, TT 13101.3s
+[ ] I 14050 E   7/100 B 1276/2129 LR 0.0010 TR 0.2579 (36.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  36.0s, TT 13137.3s
+[ ] I 14100 E   7/100 B 1326/2129 LR 0.0010 TR 0.2581 (35.3s) [ ] VAL 18.2553 ( 5.4s) TEST 18.1780 ( 5.4s) V_PPL 84752904.72 ( 0.0s) T_PPL 78455091.56 ( 0.0s) SAMP  ( 2.3s) TI  48.3s, TT 13185.6s
+[ ] I 14150 E   7/100 B 1376/2129 LR 0.0010 TR 0.2570 (34.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.2s, TT 13219.8s
+[ ] I 14200 E   7/100 B 1426/2129 LR 0.0010 TR 0.2573 (31.7s) [ ] VAL 18.1684 ( 5.0s) TEST 18.0905 ( 5.3s) V_PPL 77705325.71 ( 0.0s) T_PPL 71879975.89 ( 0.0s) SAMP  ( 2.3s) TI  44.3s, TT 13264.1s
+[ ] I 14250 E   7/100 B 1476/2129 LR 0.0010 TR 0.2551 (34.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.4s, TT 13298.5s
+[ ] I 14300 E   7/100 B 1526/2129 LR 0.0010 TR 0.2549 (38.2s) [ ] VAL 18.2486 ( 6.8s) TEST 18.1435 ( 5.5s) V_PPL 84188948.83 ( 0.0s) T_PPL 75789635.49 ( 0.0s) SAMP  ( 3.3s) TI  53.8s, TT 13352.3s
+[ ] I 14350 E   7/100 B 1576/2129 LR 0.0010 TR 0.2543 (37.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  37.0s, TT 13389.3s
+[ ] I 14400 E   7/100 B 1626/2129 LR 0.0010 TR 0.2533 (44.4s) [ ] VAL 18.2555 ( 6.0s) TEST 18.2214 ( 6.0s) V_PPL 84776665.10 ( 0.0s) T_PPL 81928124.89 ( 0.0s) SAMP  ( 2.8s) TI  59.1s, TT 13448.4s
+[ ] I 14450 E   7/100 B 1676/2129 LR 0.0010 TR 0.2512 (38.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  38.5s, TT 13486.9s
+[F] I 14500 E   7/100 B 1726/2129 LR 0.0010 TR 0.2518 (43.0s) [ ] VAL 18.2153 (67.5s) TEST 18.1559 (61.4s) V_PPL 81434697.01 ( 0.0s) T_PPL 76734648.30 ( 0.0s) SAMP  ( 2.6s) TI 174.6s, TT 13661.5s
+[ ] I 14550 E   7/100 B 1776/2129 LR 0.0010 TR 0.2510 (37.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  37.8s, TT 13699.3s
+[ ] I 14600 E   7/100 B 1826/2129 LR 0.0010 TR 0.2485 (38.2s) [ ] VAL 18.3059 ( 6.2s) TEST 18.2216 ( 5.6s) V_PPL 89160198.29 ( 0.0s) T_PPL 81945975.82 ( 0.0s) SAMP  ( 2.4s) TI  52.4s, TT 13751.7s
+[ ] I 14650 E   7/100 B 1876/2129 LR 0.0010 TR 0.2503 (34.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.2s, TT 13785.9s
+[ ] I 14700 E   7/100 B 1926/2129 LR 0.0010 TR 0.2476 (35.7s) [ ] VAL 18.3568 ( 5.9s) TEST 18.2286 ( 5.8s) V_PPL 93813841.54 ( 0.0s) T_PPL 82521059.53 ( 0.0s) SAMP  ( 2.7s) TI  50.1s, TT 13836.0s
+[ ] I 14750 E   7/100 B 1976/2129 LR 0.0010 TR 0.2500 (39.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  39.5s, TT 13875.5s
+[ ] I 14800 E   7/100 B 2026/2129 LR 0.0010 TR 0.2473 (39.2s) [ ] VAL 18.3664 ( 6.4s) TEST 18.2693 ( 6.7s) V_PPL 94717416.54 ( 0.0s) T_PPL 85952824.37 ( 0.0s) SAMP  ( 2.6s) TI  54.9s, TT 13930.4s
+[ ] I 14850 E   7/100 B 2076/2129 LR 0.0010 TR 0.2465 (42.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  42.2s, TT 13972.6s
+[ ] I 14900 E   7/100 B 2126/2129 LR 0.0010 TR 0.2456 (37.5s) [ ] VAL 18.4222 ( 6.0s) TEST 18.3346 ( 6.3s) V_PPL 100153239.39 ( 0.0s) T_PPL 91753351.89 ( 0.0s) SAMP  ( 2.4s) TI  52.2s, TT 14024.8s
+[ ] I 14950 E   8/100 B   47/2129 LR 0.0010 TR 0.2429 (37.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  37.4s, TT 14062.2s
+[F] I 15000 E   8/100 B   97/2129 LR 0.0010 TR 0.2422 (36.6s) [ ] VAL 18.4380 (57.0s) TEST 18.3465 (63.1s) V_PPL 101742152.86 ( 0.0s) T_PPL 92852958.10 ( 0.0s) SAMP  ( 2.7s) TI 159.4s, TT 14221.6s
+[ ] I 15050 E   8/100 B  147/2129 LR 0.0010 TR 0.2419 (38.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  38.4s, TT 14260.1s
+[ ] I 15100 E   8/100 B  197/2129 LR 0.0010 TR 0.2411 (50.6s) [ ] VAL 18.4350 ( 7.0s) TEST 18.3660 ( 7.4s) V_PPL 101445196.75 ( 0.0s) T_PPL 94678649.67 ( 0.0s) SAMP  ( 2.6s) TI  67.6s, TT 14327.7s
+[ ] I 15150 E   8/100 B  247/2129 LR 0.0010 TR 0.2417 (44.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  44.7s, TT 14372.4s
+[ ] I 15200 E   8/100 B  297/2129 LR 0.0010 TR 0.2405 (44.4s) [ ] VAL 18.4462 ( 7.3s) TEST 18.3525 ( 6.7s) V_PPL 102580234.98 ( 0.0s) T_PPL 93410732.92 ( 0.0s) SAMP  ( 2.7s) TI  61.1s, TT 14433.5s
+[ ] I 15250 E   8/100 B  347/2129 LR 0.0010 TR 0.2407 (33.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  33.7s, TT 14467.2s
+[ ] I 15300 E   8/100 B  397/2129 LR 0.0010 TR 0.2399 (32.0s) [ ] VAL 18.4447 ( 6.4s) TEST 18.3909 ( 5.8s) V_PPL 102429588.93 ( 0.0s) T_PPL 97061768.30 ( 0.0s) SAMP  ( 2.3s) TI  46.5s, TT 14513.7s
+[ ] I 15350 E   8/100 B  447/2129 LR 0.0010 TR 0.2404 (34.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  34.2s, TT 14547.9s
+[ ] I 15400 E   8/100 B  497/2129 LR 0.0010 TR 0.2393 (39.2s) [ ] VAL 18.4506 ( 7.8s) TEST 18.3712 ( 6.9s) V_PPL 103033227.22 ( 0.0s) T_PPL 95168441.99 ( 0.0s) SAMP  ( 2.6s) TI  56.6s, TT 14604.5s
+[ ] I 15450 E   8/100 B  547/2129 LR 0.0010 TR 0.2372 (42.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  42.6s, TT 14647.1s
+[F] I 15500 E   8/100 B  597/2129 LR 0.0010 TR 0.2378 (46.0s) [ ] VAL 18.6052 (83.6s) TEST 18.5286 (63.9s) V_PPL 120266603.09 ( 0.0s) T_PPL 111393917.33 ( 0.0s) SAMP  ( 2.6s) TI 196.1s, TT 14843.2s
+[ ] I 15550 E   8/100 B  647/2129 LR 0.0010 TR 0.2368 (36.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  36.4s, TT 14879.6s
+[ ] I 15600 E   8/100 B  697/2129 LR 0.0010 TR 0.2361 (40.6s) [ ] VAL 18.5429 ( 6.6s) TEST 18.4930 ( 6.6s) V_PPL 112996249.75 ( 0.0s) T_PPL 107501074.84 ( 0.0s) SAMP  ( 2.5s) TI  56.3s, TT 14935.9s
+[ ] I 15650 E   8/100 B  747/2129 LR 0.0010 TR 0.2358 (36.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  36.2s, TT 14972.1s
+[ ] I 15700 E   8/100 B  797/2129 LR 0.0010 TR 0.2338 (37.4s) [ ] VAL 18.6142 ( 5.7s) TEST 18.5278 ( 5.2s) V_PPL 121348638.32 ( 0.0s) T_PPL 111307889.33 ( 0.0s) SAMP  ( 2.4s) TI  50.7s, TT 15022.8s
+[ ] I 15750 E   8/100 B  847/2129 LR 0.0010 TR 0.2342 (38.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  38.1s, TT 15060.9s
+[ ] I 15800 E   8/100 B  897/2129 LR 0.0010 TR 0.2341 (37.9s) [ ] VAL 18.5930 ( 6.5s) TEST 18.5424 ( 6.5s) V_PPL 118804303.72 ( 0.0s) T_PPL 112947017.40 ( 0.0s) SAMP  ( 2.6s) TI  53.4s, TT 15114.2s
+[ ] I 15850 E   8/100 B  947/2129 LR 0.0010 TR 0.2332 (38.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  38.3s, TT 15152.5s
+[ ] I 15900 E   8/100 B  997/2129 LR 0.0010 TR 0.2326 (36.8s) [ ] VAL 18.5359 ( 5.8s) TEST 18.4700 ( 5.8s) V_PPL 112217165.34 ( 0.0s) T_PPL 105054525.01 ( 0.0s) SAMP  ( 2.6s) TI  51.0s, TT 15203.5s
+[ ] I 15950 E   8/100 B 1047/2129 LR 0.0010 TR 0.2327 (37.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  37.7s, TT 15241.3s
+[F] I 16000 E   8/100 B 1097/2129 LR 0.0010 TR 0.2308 (38.2s) [ ] VAL 18.6112 (56.0s) TEST 18.5080 (62.7s) V_PPL 120982505.93 ( 0.0s) T_PPL 109129196.02 ( 0.0s) SAMP  ( 2.6s) TI 159.4s, TT 15400.7s
+[ ] I 16050 E   8/100 B 1147/2129 LR 0.0010 TR 0.2316 (40.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  40.0s, TT 15440.7s
+[ ] I 16100 E   8/100 B 1197/2129 LR 0.0010 TR 0.2313 (35.9s) [ ] VAL 18.5939 ( 5.7s) TEST 18.5063 ( 6.3s) V_PPL 118915197.01 ( 0.0s) T_PPL 108940059.82 ( 0.0s) SAMP  ( 2.8s) TI  50.6s, TT 15491.3s
+[ ] I 16150 E   8/100 B 1247/2129 LR 0.0010 TR 0.2304 (38.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  38.3s, TT 15529.5s
+[ ] I 16200 E   8/100 B 1297/2129 LR 0.0010 TR 0.2297 (38.3s) [ ] VAL 18.6777 ( 6.1s) TEST 18.6501 ( 7.0s) V_PPL 129313110.16 ( 0.0s) T_PPL 125781074.30 ( 0.0s) SAMP  ( 2.7s) TI  54.2s, TT 15583.7s
+[ ] I 16250 E   8/100 B 1347/2129 LR 0.0010 TR 0.2280 (39.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  39.1s, TT 15622.8s
+[ ] I 16300 E   8/100 B 1397/2129 LR 0.0010 TR 0.2284 (37.7s) [ ] VAL 18.6705 ( 5.5s) TEST 18.5997 ( 5.5s) V_PPL 128381613.87 ( 0.0s) T_PPL 119604108.25 ( 0.0s) SAMP  ( 2.6s) TI  51.4s, TT 15674.2s
+[ ] I 16350 E   8/100 B 1447/2129 LR 0.0010 TR 0.2291 (35.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  35.3s, TT 15709.5s
+[ ] I 16400 E   8/100 B 1497/2129 LR 0.0010 TR 0.2272 (36.8s) [ ] VAL 18.6656 ( 6.2s) TEST 18.6290 ( 6.1s) V_PPL 127745999.37 ( 0.0s) T_PPL 123156035.84 ( 0.0s) SAMP  ( 2.6s) TI  51.6s, TT 15761.2s
+[ ] I 16450 E   8/100 B 1547/2129 LR 0.0010 TR 0.2268 (37.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  37.9s, TT 15799.1s
+[F] I 16500 E   8/100 B 1597/2129 LR 0.0010 TR 0.2258 (36.4s) [ ] VAL 18.7017 (56.1s) TEST 18.6154 (57.1s) V_PPL 132443736.60 ( 0.0s) T_PPL 121499353.02 ( 0.0s) SAMP  ( 2.4s) TI 152.0s, TT 15951.1s
+[ ] I 16550 E   8/100 B 1647/2129 LR 0.0010 TR 0.2253 (36.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  36.4s, TT 15987.5s
+[ ] I 16600 E   8/100 B 1697/2129 LR 0.0010 TR 0.2239 (38.2s) [ ] VAL 18.8062 ( 5.6s) TEST 18.6874 ( 5.5s) V_PPL 147030464.65 ( 0.0s) T_PPL 130563053.79 ( 0.0s) SAMP  ( 3.0s) TI  52.3s, TT 16039.9s
+[ ] I 16650 E   8/100 B 1747/2129 LR 0.0010 TR 0.2240 (72.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  72.0s, TT 16111.9s
+[ ] I 16700 E   8/100 B 1797/2129 LR 0.0010 TR 0.2235 (53.2s) [ ] VAL 18.8098 ( 8.1s) TEST 18.7167 ( 8.9s) V_PPL 147563795.08 ( 0.0s) T_PPL 134455886.10 ( 0.0s) SAMP  ( 2.8s) TI  73.0s, TT 16184.9s
+[ ] I 16750 E   8/100 B 1847/2129 LR 0.0010 TR 0.2239 (52.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  52.6s, TT 16237.5s
+[ ] I 16800 E   8/100 B 1897/2129 LR 0.0010 TR 0.2230 (66.2s) [ ] VAL 18.8219 ( 9.7s) TEST 18.7443 ( 9.3s) V_PPL 149366505.67 ( 0.0s) T_PPL 138206619.22 ( 0.0s) SAMP  ( 2.7s) TI  87.9s, TT 16325.4s
+[ ] I 16850 E   8/100 B 1947/2129 LR 0.0010 TR 0.2220 (55.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  55.1s, TT 16380.5s
+[ ] I 16900 E   8/100 B 1997/2129 LR 0.0010 TR 0.2220 (58.0s) [ ] VAL 18.8054 ( 8.1s) TEST 18.7440 ( 7.3s) V_PPL 146917916.94 ( 0.0s) T_PPL 138166546.82 ( 0.0s) SAMP  ( 2.7s) TI  76.1s, TT 16456.6s
+[ ] I 16950 E   8/100 B 2047/2129 LR 0.0010 TR 0.2217 (64.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  64.3s, TT 16520.9s
+[F] I 17000 E   8/100 B 2097/2129 LR 0.0010 TR 0.2200 (62.2s) [ ] VAL 18.8090 (109.1s) TEST 18.7202 (104.0s) V_PPL 147451290.25 ( 0.0s) T_PPL 134920988.47 ( 0.0s) SAMP  ( 2.8s) TI 278.1s, TT 16799.0s
+[ ] I 17050 E   9/100 B   18/2129 LR 0.0010 TR 0.2189 (60.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  60.7s, TT 16859.6s
+[ ] I 17100 E   9/100 B   68/2129 LR 0.0010 TR 0.2164 (57.1s) [ ] VAL 18.8921 ( 9.2s) TEST 18.8319 ( 8.9s) V_PPL 160221649.13 ( 0.0s) T_PPL 150871087.72 ( 0.0s) SAMP  ( 2.8s) TI  78.0s, TT 16937.7s
+[ ] I 17150 E   9/100 B  118/2129 LR 0.0010 TR 0.2175 (56.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  56.1s, TT 16993.7s
+[ ] I 17200 E   9/100 B  168/2129 LR 0.0010 TR 0.2178 (63.1s) [ ] VAL 18.8565 (10.2s) TEST 18.7743 (12.0s) V_PPL 154621868.69 ( 0.0s) T_PPL 142416630.59 ( 0.0s) SAMP  ( 2.8s) TI  88.2s, TT 17081.9s
+[ ] I 17250 E   9/100 B  218/2129 LR 0.0010 TR 0.2163 (65.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  65.3s, TT 17147.2s
+[ ] I 17300 E   9/100 B  268/2129 LR 0.0010 TR 0.2169 (49.9s) [ ] VAL 18.8873 (13.5s) TEST 18.8336 ( 8.4s) V_PPL 159452104.50 ( 0.0s) T_PPL 151126763.73 ( 0.0s) SAMP  ( 2.8s) TI  74.7s, TT 17221.9s
+[ ] I 17350 E   9/100 B  318/2129 LR 0.0010 TR 0.2161 (51.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  51.3s, TT 17273.2s
+[ ] I 17400 E   9/100 B  368/2129 LR 0.0010 TR 0.2141 (66.0s) [ ] VAL 18.9132 ( 8.7s) TEST 18.8159 ( 8.8s) V_PPL 163641759.94 ( 0.0s) T_PPL 148469346.79 ( 0.0s) SAMP  ( 2.8s) TI  86.2s, TT 17359.4s
+[ ] I 17450 E   9/100 B  418/2129 LR 0.0010 TR 0.2159 (56.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  56.7s, TT 17416.0s
+[F] I 17500 E   9/100 B  468/2129 LR 0.0010 TR 0.2141 (55.2s) [ ] VAL 18.9091 (96.1s) TEST 18.8315 (92.7s) V_PPL 162975996.06 ( 0.0s) T_PPL 150808661.45 ( 0.0s) SAMP  ( 2.7s) TI 246.7s, TT 17662.8s
+[ ] I 17550 E   9/100 B  518/2129 LR 0.0010 TR 0.2149 (63.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  63.5s, TT 17726.2s
+[ ] I 17600 E   9/100 B  568/2129 LR 0.0010 TR 0.2135 (52.6s) [ ] VAL 19.0058 ( 8.0s) TEST 18.9089 ( 8.4s) V_PPL 179525217.53 ( 0.0s) T_PPL 162937756.02 ( 0.0s) SAMP  ( 2.6s) TI  71.5s, TT 17797.8s
+[ ] I 17650 E   9/100 B  618/2129 LR 0.0010 TR 0.2131 (54.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  54.1s, TT 17851.9s
+[ ] I 17700 E   9/100 B  668/2129 LR 0.0010 TR 0.2140 (54.8s) [ ] VAL 18.9255 ( 9.0s) TEST 18.7820 ( 8.9s) V_PPL 165670657.47 ( 0.0s) T_PPL 143517385.51 ( 0.0s) SAMP  ( 2.8s) TI  75.4s, TT 17927.3s
+[ ] I 17750 E   9/100 B  718/2129 LR 0.0010 TR 0.2124 (52.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  52.6s, TT 17979.9s
+[ ] I 17800 E   9/100 B  768/2129 LR 0.0010 TR 0.2132 (51.9s) [ ] VAL 19.0001 ( 8.4s) TEST 18.9316 ( 8.3s) V_PPL 178495767.29 ( 0.0s) T_PPL 166687125.01 ( 0.0s) SAMP  ( 2.8s) TI  71.4s, TT 18051.3s
+[ ] I 17850 E   9/100 B  818/2129 LR 0.0010 TR 0.2128 (52.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  52.3s, TT 18103.5s
+[ ] I 17900 E   9/100 B  868/2129 LR 0.0010 TR 0.2109 (53.4s) [ ] VAL 19.0617 ( 8.8s) TEST 18.9989 ( 8.7s) V_PPL 189839536.78 ( 0.0s) T_PPL 178280969.50 ( 0.0s) SAMP  ( 2.8s) TI  73.7s, TT 18177.3s
+[ ] I 17950 E   9/100 B  918/2129 LR 0.0010 TR 0.2113 (52.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  52.7s, TT 18230.0s
+[F] I 18000 E   9/100 B  968/2129 LR 0.0010 TR 0.2114 (54.9s) [ ] VAL 19.0312 (88.0s) TEST 18.9579 (85.3s) V_PPL 184136194.59 ( 0.0s) T_PPL 171125185.25 ( 0.0s) SAMP  ( 2.9s) TI 231.0s, TT 18461.1s
+[ ] I 18050 E   9/100 B 1018/2129 LR 0.0010 TR 0.2098 (58.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  58.9s, TT 18519.9s
+[ ] I 18100 E   9/100 B 1068/2129 LR 0.0010 TR 0.2090 (56.3s) [ ] VAL 18.9767 ( 8.3s) TEST 18.8957 ( 8.8s) V_PPL 174365733.42 ( 0.0s) T_PPL 160806918.04 ( 0.0s) SAMP  ( 2.6s) TI  76.1s, TT 18596.0s
+[ ] I 18150 E   9/100 B 1118/2129 LR 0.0010 TR 0.2073 (45.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  45.1s, TT 18641.1s
+[ ] I 18200 E   9/100 B 1168/2129 LR 0.0010 TR 0.2072 (46.6s) [ ] VAL 18.9743 ( 8.2s) TEST 18.9357 ( 8.4s) V_PPL 173957856.86 ( 0.0s) T_PPL 167363081.46 ( 0.0s) SAMP  ( 2.6s) TI  65.8s, TT 18706.9s
+[ ] I 18250 E   9/100 B 1218/2129 LR 0.0010 TR 0.2097 (52.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  52.4s, TT 18759.3s
+[ ] I 18300 E   9/100 B 1268/2129 LR 0.0010 TR 0.2067 (55.6s) [ ] VAL 19.1862 ( 6.7s) TEST 19.0995 (10.0s) V_PPL 215005229.53 ( 0.0s) T_PPL 197163304.54 ( 0.0s) SAMP  ( 2.7s) TI  74.9s, TT 18834.3s
+[ ] I 18350 E   9/100 B 1318/2129 LR 0.0010 TR 0.2066 (60.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  60.4s, TT 18894.6s
+[ ] I 18400 E   9/100 B 1368/2129 LR 0.0010 TR 0.2053 (58.7s) [ ] VAL 19.0815 (10.1s) TEST 19.0070 ( 8.8s) V_PPL 193644486.42 ( 0.0s) T_PPL 179730760.05 ( 0.0s) SAMP  ( 2.7s) TI  80.2s, TT 18974.9s
+[ ] I 18450 E   9/100 B 1418/2129 LR 0.0010 TR 0.2074 (56.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  56.4s, TT 19031.2s
+[F] I 18500 E   9/100 B 1468/2129 LR 0.0010 TR 0.2059 (58.0s) [ ] VAL 19.1298 (97.3s) TEST 19.0424 (85.5s) V_PPL 203216097.85 ( 0.0s) T_PPL 186208253.60 ( 0.0s) SAMP  ( 2.8s) TI 243.6s, TT 19274.8s
+[ ] I 18550 E   9/100 B 1518/2129 LR 0.0010 TR 0.2053 (50.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  50.3s, TT 19325.2s
+[ ] I 18600 E   9/100 B 1568/2129 LR 0.0010 TR 0.2063 (56.6s) [ ] VAL 19.1401 ( 9.2s) TEST 19.0362 ( 9.4s) V_PPL 205330830.85 ( 0.0s) T_PPL 185070696.69 ( 0.0s) SAMP  ( 2.7s) TI  77.9s, TT 19403.1s
+[ ] I 18650 E   9/100 B 1618/2129 LR 0.0010 TR 0.2048 (54.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  54.3s, TT 19457.4s
+[ ] I 18700 E   9/100 B 1668/2129 LR 0.0010 TR 0.2049 (52.7s) [ ] VAL 19.1128 ( 8.4s) TEST 19.0696 ( 8.1s) V_PPL 199795120.11 ( 0.0s) T_PPL 191354919.22 ( 0.0s) SAMP  ( 2.9s) TI  72.0s, TT 19529.4s
+[ ] I 18750 E   9/100 B 1718/2129 LR 0.0010 TR 0.2048 (63.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  63.7s, TT 19593.2s
+[ ] I 18800 E   9/100 B 1768/2129 LR 0.0010 TR 0.2024 (48.8s) [ ] VAL 19.1980 ( 8.4s) TEST 19.1061 ( 8.9s) V_PPL 217567952.02 ( 0.0s) T_PPL 198456294.45 ( 0.0s) SAMP  ( 2.7s) TI  68.8s, TT 19662.0s
+[ ] I 18850 E   9/100 B 1818/2129 LR 0.0010 TR 0.2034 (49.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  49.7s, TT 19711.7s
+[ ] I 18900 E   9/100 B 1868/2129 LR 0.0010 TR 0.2031 (52.1s) [ ] VAL 19.1967 ( 8.0s) TEST 19.1423 ( 9.0s) V_PPL 217282281.41 ( 0.0s) T_PPL 205781214.00 ( 0.0s) SAMP  ( 2.7s) TI  71.8s, TT 19783.5s
+[ ] I 18950 E   9/100 B 1918/2129 LR 0.0010 TR 0.2017 (50.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  50.0s, TT 19833.5s
+[F] I 19000 E   9/100 B 1968/2129 LR 0.0010 TR 0.2016 (52.8s) [ ] VAL 19.2672 (83.9s) TEST 19.2010 (82.8s) V_PPL 233140961.95 ( 0.0s) T_PPL 218223362.48 ( 0.0s) SAMP  ( 2.7s) TI 222.3s, TT 20055.8s
+[ ] I 19050 E   9/100 B 2018/2129 LR 0.0010 TR 0.2016 (54.6s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  54.6s, TT 20110.4s
+[ ] I 19100 E   9/100 B 2068/2129 LR 0.0010 TR 0.2016 (51.9s) [ ] VAL 19.2524 ( 9.2s) TEST 19.1299 ( 7.9s) V_PPL 229716823.64 ( 0.0s) T_PPL 203246023.40 ( 0.0s) SAMP  ( 2.8s) TI  71.7s, TT 20182.1s
+[ ] I 19150 E   9/100 B 2118/2129 LR 0.0010 TR 0.2015 (46.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  46.7s, TT 20228.8s
+[ ] I 19200 E  10/100 B   39/2129 LR 0.0010 TR 0.1970 (55.6s) [ ] VAL 19.2356 ( 6.7s) TEST 19.1414 ( 5.3s) V_PPL 225891589.73 ( 0.0s) T_PPL 205596895.92 ( 0.0s) SAMP  ( 2.6s) TI  70.2s, TT 20298.9s
+[ ] I 19250 E  10/100 B   89/2129 LR 0.0010 TR 0.1954 (32.4s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  32.4s, TT 20331.3s
+[ ] I 19300 E  10/100 B  139/2129 LR 0.0010 TR 0.1969 (30.9s) [ ] VAL 19.2731 ( 4.7s) TEST 19.2096 ( 4.7s) V_PPL 234529180.33 ( 0.0s) T_PPL 220105968.51 ( 0.0s) SAMP  ( 2.1s) TI  42.5s, TT 20373.8s
+[ ] I 19350 E  10/100 B  189/2129 LR 0.0010 TR 0.1972 (28.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.9s, TT 20402.7s
+[ ] I 19400 E  10/100 B  239/2129 LR 0.0010 TR 0.1974 (29.0s) [ ] VAL 19.2216 ( 4.7s) TEST 19.1513 ( 4.7s) V_PPL 222752729.07 ( 0.0s) T_PPL 207627127.23 ( 0.0s) SAMP  ( 2.1s) TI  40.5s, TT 20443.2s
+[ ] I 19450 E  10/100 B  289/2129 LR 0.0010 TR 0.1966 (28.9s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.9s, TT 20472.2s
+[F] I 19500 E  10/100 B  339/2129 LR 0.0010 TR 0.1962 (29.0s) [ ] VAL 19.3118 (47.1s) TEST 19.2328 (47.0s) V_PPL 243792260.65 ( 0.0s) T_PPL 225257046.91 ( 0.0s) SAMP  ( 2.2s) TI 125.3s, TT 20597.5s
+[ ] I 19550 E  10/100 B  389/2129 LR 0.0010 TR 0.1956 (29.3s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  29.3s, TT 20626.8s
+[ ] I 19600 E  10/100 B  439/2129 LR 0.0010 TR 0.1957 (29.0s) [ ] VAL 19.3114 ( 4.7s) TEST 19.2088 ( 4.7s) V_PPL 243682054.02 ( 0.0s) T_PPL 219928239.26 ( 0.0s) SAMP  ( 2.2s) TI  40.6s, TT 20667.3s
+[ ] I 19650 E  10/100 B  489/2129 LR 0.0010 TR 0.1959 (28.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.7s, TT 20696.0s
+[ ] I 19700 E  10/100 B  539/2129 LR 0.0010 TR 0.1943 (28.7s) [ ] VAL 19.4164 ( 4.7s) TEST 19.3459 ( 4.7s) V_PPL 270670482.35 ( 0.0s) T_PPL 252241966.67 ( 0.0s) SAMP  ( 2.2s) TI  40.2s, TT 20736.3s
+[ ] I 19750 E  10/100 B  589/2129 LR 0.0010 TR 0.1944 (28.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.7s, TT 20765.0s
+[ ] I 19800 E  10/100 B  639/2129 LR 0.0010 TR 0.1935 (28.7s) [ ] VAL 19.2865 ( 4.7s) TEST 19.2028 ( 4.7s) V_PPL 237684770.70 ( 0.0s) T_PPL 218600199.21 ( 0.0s) SAMP  ( 2.2s) TI  40.2s, TT 20805.2s
+[ ] I 19850 E  10/100 B  689/2129 LR 0.0010 TR 0.1935 (28.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.7s, TT 20834.0s
+[ ] I 19900 E  10/100 B  739/2129 LR 0.0010 TR 0.1941 (28.7s) [ ] VAL 19.2977 ( 4.6s) TEST 19.2396 ( 4.7s) V_PPL 240373542.08 ( 0.0s) T_PPL 226798486.02 ( 0.0s) SAMP  ( 2.2s) TI  40.1s, TT 20874.1s
+[ ] I 19950 E  10/100 B  789/2129 LR 0.0010 TR 0.1932 (28.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.7s, TT 20902.8s
+[F] I 20000 E  10/100 B  839/2129 LR 0.0010 TR 0.1925 (28.7s) [ ] VAL 19.3326 (47.4s) TEST 19.2552 (47.0s) V_PPL 248908054.34 ( 0.0s) T_PPL 230374006.72 ( 0.0s) SAMP  ( 2.1s) TI 125.1s, TT 21027.9s
+[ ] I 20050 E  10/100 B  889/2129 LR 0.0010 TR 0.1931 (29.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  29.0s, TT 21056.9s
+[ ] I 20100 E  10/100 B  939/2129 LR 0.0010 TR 0.1923 (28.9s) [ ] VAL 19.3839 ( 4.7s) TEST 19.3216 ( 4.7s) V_PPL 262007990.73 ( 0.0s) T_PPL 246187010.15 ( 0.0s) SAMP  ( 2.1s) TI  40.4s, TT 21097.3s
+[ ] I 20150 E  10/100 B  989/2129 LR 0.0010 TR 0.1926 (28.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  28.8s, TT 21126.1s
+[ ] I 20200 E  10/100 B 1039/2129 LR 0.0010 TR 0.1910 (29.1s) [ ] VAL 19.3928 ( 5.1s) TEST 19.3175 ( 4.7s) V_PPL 264350299.28 ( 0.0s) T_PPL 245185801.03 ( 0.0s) SAMP  ( 2.2s) TI  41.1s, TT 21167.1s
+Stopping, user requested
+Trained to E 9, B 1088 for 21196.3s

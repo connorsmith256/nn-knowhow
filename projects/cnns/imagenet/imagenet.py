@@ -273,8 +273,6 @@ except Exception as e:
     best_loss = float('inf')
     print('started from scratch')
 
-model = model.cuda()
-
 if start_epoch < lr_warmup_epochs:
     lr = warmup_lr.get_last_lr()[0]
 else:

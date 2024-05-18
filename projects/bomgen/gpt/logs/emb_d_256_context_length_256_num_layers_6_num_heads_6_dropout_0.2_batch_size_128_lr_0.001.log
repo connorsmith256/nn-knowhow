@@ -1,0 +1,7 @@
+Model arch: emb_d: 256, context_length: 256, num_layers: 6, num_heads: 6, dropout: 0.2 (7.7M params)
+Starting from scratch (No checkpoint found)
+[ ] E   1/20 B  500/2129 LR 0.0010 TR 5.7713 (107.4s) [S] VAL 6.1856 ( 9.4s) TEST 6.1865 ( 9.5s) V_PPL 485.73 ( 0.0s) T_PPL 486.12 ( 0.0s) SAMP  ( 3.5s) TI 129.8s, TT  129.8s
+[ ] E   1/20 B 1000/2129 LR 0.0010 TR 4.7151 (109.0s) [ ] VAL 7.4770 ( 9.6s) TEST 7.4847 ( 9.6s) V_PPL 1766.86 ( 0.0s) T_PPL 1780.65 ( 0.0s) SAMP  ( 3.5s) TI 131.7s, TT  261.5s
+[F] E   1/20 B 1500/2129 LR 0.0010 TR 3.4544 (110.0s) [ ] VAL 8.8043 (19.2s) TEST 8.7964 (19.0s) V_PPL 6662.97 ( 0.0s) T_PPL 6610.48 ( 0.0s) SAMP  ( 3.7s) TI 152.0s, TT  413.5s
+Stopping, user requested
+Trained to E 0, B 1730 for 463.9s

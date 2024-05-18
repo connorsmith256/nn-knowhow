@@ -1,0 +1,16 @@
+Model arch: emb_d: 384, context_length: 256, num_layers: 12, num_heads: 12, dropout: 0.2 (25.8M params)
+Starting from scratch (No checkpoint found)
+[ ] I    50 E   1/100 B   50/2129 LR 0.0010 TR    inf (39.2s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  39.2s, TT   39.2s
+[ ] I   100 E   1/100 B  100/2129 LR 0.0010 TR 5.8229 (39.5s) [S] VAL 5.9449 ( 6.5s) TEST 5.9430 ( 6.6s) V_PPL  381.79 ( 0.0s) T_PPL  381.06 ( 0.0s) SAMP  ( 2.1s) TI  54.7s, TT   94.0s
+[ ] I   150 E   1/100 B  150/2129 LR 0.0010 TR 5.8229 (39.8s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  39.8s, TT  133.8s
+[ ] I   200 E   1/100 B  200/2129 LR 0.0010 TR 5.8201 (40.2s) [S] VAL 5.9431 ( 6.7s) TEST 5.9379 ( 6.7s) V_PPL  381.10 ( 0.0s) T_PPL  379.16 ( 0.0s) SAMP  ( 2.1s) TI  55.7s, TT  189.5s
+[ ] I   250 E   1/100 B  250/2129 LR 0.0010 TR 5.8201 (40.0s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  40.0s, TT  229.5s
+[ ] I   300 E   1/100 B  300/2129 LR 0.0010 TR 5.8034 (44.6s) [ ] VAL 5.9791 ( 7.6s) TEST 5.9743 ( 7.2s) V_PPL  395.10 ( 0.0s) T_PPL  393.19 ( 0.0s) SAMP  ( 2.3s) TI  61.7s, TT  291.2s
+[ ] I   350 E   1/100 B  350/2129 LR 0.0010 TR 5.8034 (45.5s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  45.5s, TT  336.7s
+[ ] I   400 E   1/100 B  400/2129 LR 0.0010 TR 5.7030 (45.4s) [ ] VAL 6.0671 ( 7.3s) TEST 6.0616 ( 7.6s) V_PPL  431.44 ( 0.0s) T_PPL  429.07 ( 0.0s) SAMP  ( 2.2s) TI  62.6s, TT  399.2s
+[ ] I   450 E   1/100 B  450/2129 LR 0.0010 TR 5.7030 (45.7s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  45.7s, TT  445.0s
+[ ] I   500 E   1/100 B  500/2129 LR 0.0010 TR 5.3699 (45.3s) [ ] VAL 6.2638 ( 7.7s) TEST 6.2630 ( 7.3s) V_PPL  525.23 ( 0.0s) T_PPL  524.79 ( 0.0s) SAMP  ( 2.3s) TI  62.6s, TT  507.6s
+[ ] I   550 E   1/100 B  550/2129 LR 0.0010 TR 5.3699 (45.1s) [ ] VAL                TEST                V_PPL                 T_PPL                 SAMP          TI  45.1s, TT  552.7s
+[ ] I   600 E   1/100 B  600/2129 LR 0.0010 TR 4.7862 (46.0s) [ ] VAL 6.6979 ( 7.2s) TEST 6.6910 ( 7.4s) V_PPL  810.74 ( 0.0s) T_PPL  805.11 ( 0.0s) SAMP  ( 2.2s) TI  62.9s, TT  615.6s
+Stopping, user requested
+Trained to E 0, B 608 for 623.2s

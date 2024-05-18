@@ -6,8 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/17/2024
+- 🧪[Created Resumable to support suspending/resuming training mid-epoch](./projects/resumable/resumable.py)
+
 05/15/2024
-- 🧪[My first neural style transfer](./style-transfer/)
+- 🧪[My first neural style transfer](./projects/style-transfer/)
+- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lectures 16-18)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
 
 05/14/2024
 - 📰[Effort, a possibly new algorithm for LLM inference](https://kolinko.github.io/effort/index.html)
@@ -17,8 +21,8 @@ Legend:
 - 📰[GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)
 - 📜[QuIP: 2-Bit Quantization of Large Language Models With Guarantees](https://arxiv.org/pdf/2307.13304)
 - 📜[QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks](https://arxiv.org/pdf/2402.04396)
-- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lecture 13)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
-- 🧪[Set up research log](./research-log.md)
+- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lectures 14-15)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
+- 🧪[Set up repo & research log](./research-log.md)
 
 05/10/2024
 - 📜[Receptance Weighted Key Value (RWKV)](https://arxiv.org/pdf/2305.13048)
@@ -53,11 +57,11 @@ Legend:
 - 📜[RandAugment: Practical automated data augmentation with a reduced search space](https://arxiv.org/pdf/1909.13719)
 - 📜[Augmix: A Simple Data Processing Method To Improve Robustness And Uncertainty](https://arxiv.org/pdf/1912.02781)
 - 📜[TrivialAugment: Tuning-free Yet State-of-the-Art Data Augmentation](https://arxiv.org/pdf/2103.10158)
-- 🧪[My first ResNet (LR search, schedulers, data augmentation)](./cnns/imagenet/)
+- 🧪[My first ResNet (LR search, schedulers, data augmentation)](./projects/cnns/imagenet/)
 
 05/02/2024
 - 📜[Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677)
-- 🧪[My first ResNet (optimizer search)](./cnns/imagenet/)
+- 🧪[My first ResNet (optimizer search)](./projects/cnns/imagenet/)
 
 04/29/2024
 - 📰[xFormers](https://github.com/facebookresearch/xformers)
@@ -70,16 +74,16 @@ Legend:
 - 📜[Phi-3 Technical Report: A Highly Capable Language Modle Locally on Your Phone](https://arxiv.org/pdf/2404.14219)
 
 04/24/2024
-- 🧪[My first ResNet (training on CIFAR10)](./cnns/imagenet/)
+- 🧪[My first ResNet (training on CIFAR10)](./projects/cnns/imagenet/)
 
 04/23/2024
-- 🧪[My first ResNet (training on imagenette)](./cnns/imagenet/)
+- 🧪[My first ResNet (training on imagenette)](./projects/cnns/imagenet/)
 
 04/22/2024
-- 🧪[My first ResNet](./cnns/imagenet/)
+- 🧪[My first ResNet](./projects/cnns/imagenet/)
 
 04/21/2024
-- 🧪[My first CNN](./cnns/lenet/)
+- 🧪[My first CNN](./projects/cnns/lenet/)
 - 📜[Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842)
 - 📜[Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/pdf/1512.03385.pdf)
 - 📜[Neural Architecture Search with Reinforcement Learning](https://arxiv.org/pdf/1611.01578)
@@ -112,21 +116,21 @@ Legend:
 - 📰[Yes You Should Understand Backprop (Karpathy)](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
 - 📺[Let's build GPT: from scratch, in code, spelled out (Karpathy)](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 - 📰[tiktoken](https://github.com/openai/tiktoken)
-- 🧪[My first GPT](./bomgen/gpt)
+- 🧪[My first GPT](./projects/bomgen/gpt)
 
 04/14/2024
 - 📜[Recurrent Neural Network Based Language Model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
 - 📜[Generating Sequences With Recurrent Neural Networks (LSTM)](https://arxiv.org/pdf/1308.0850)
 - 📜[On the Properties of Neural Machine Translation: Encoder–Decoder Approaches (GRU)](https://arxiv.org/pdf/1409.1259)
-- 🧪[My first RNN](./rnn/rnn-manual.py)
-- 🧪[My first GRU](./rnn/gru.py)
+- 🧪[My first RNN](./projects/rnn/rnn-manual.py)
+- 🧪[My first GRU](./projects/rnn/gru.py)
 - 📰[Gemma PyTorch](https://github.com/google/gemma_pytorch)
 
 04/13/2024
 - 📜[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774)
 
 04/11/2024
-- 🧪[My first FNN](./fnn)
+- 🧪[My first FNN](./projects/fnn)
 
 04/10/2024
 - 🌐[NN Zero to Hero (Karpathy)](https://github.com/karpathy/nn-zero-to-hero)

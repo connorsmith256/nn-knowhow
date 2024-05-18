@@ -1,0 +1,2 @@
+Model arch: emb_d: 256, context_length: 256, num_layers: 6, num_heads: 6, dropout: 0.2 (7.7M params)
+Starting from scratch (No checkpoint found)
