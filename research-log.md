@@ -116,7 +116,7 @@ Legend:
 - 📰[Yes You Should Understand Backprop (Karpathy)](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
 - 📺[Let's build GPT: from scratch, in code, spelled out (Karpathy)](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 - 📰[tiktoken](https://github.com/openai/tiktoken)
-- 🧪[My first GPT](./projects/bomgen/gpt)
+- 🧪[My first GPT](./projects/bomgen/my_gpt)
 
 04/14/2024
 - 📜[Recurrent Neural Network Based Language Model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)

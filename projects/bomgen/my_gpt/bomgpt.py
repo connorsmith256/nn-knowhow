@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, TensorDataset, random_split
 
-from projects.bomgen.gpt.modules import BomGPT
+from projects.bomgen.my_gpt.modules import BomGPT
 from projects.resumable.resumable import *
 
 matplotlib.use("TkAgg")
