@@ -1,1 +1,26 @@
 https://archive.org/stream/thebookofmormon00017gut/mormon13.txt
+
+For large JSON:
+```python
+import json
+import random
+with open('datasets/bom.txt', 'r') as f:
+    text_all = f.read()
+n1 = int(0.9 * len(text_all))
+text_train = text_all[:n1]
+text_test = text_all[n1:]
+context_length = 4096
+step = 128
+samples_train = [text_train[i:i+context_length] for i in range(0, len(text_train)-context_length+1, step)]
+samples_test = [text_test[i:i+context_length] for i in range(0, len(text_test)-context_length+1, step)]
+train = [{'text': t} for t in samples_train]
+test = [{'text': t} for t in samples_test]
+print(len(train), len(test))
+with open(f'datasets/bom_11_{context_length}_{step}_train.json', 'w') as f:
+    json.dump(train, f, indent=4)
+with open(f'datasets/bom_11_{context_length}_{step}_test.json', 'w') as f:
+    json.dump(test, f, indent=4)
+```
+
+Pretrained GPT2:
+https://huggingface.co/openai-community/gpt2

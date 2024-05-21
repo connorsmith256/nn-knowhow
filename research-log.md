@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/20/2024
+- 🧪[Finetuned GPT-2 models with custom dataset](./projects/bomgen/gpt2-finetune/)
+
 05/17/2024
 - 🧪[Created Resumable to support suspending/resuming training mid-epoch](./projects/resumable/resumable.py)
 
