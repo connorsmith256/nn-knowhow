@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/22/2024
+- 📖[AI Safety Book (Hendrycks), Chapters 3.4-4](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+- 📜[Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
+
 05/20/2024
 - 🧪[Finetuned GPT-2 models with custom dataset](./projects/bomgen/gpt2-finetune/)
 
@@ -109,7 +113,7 @@ Legend:
 - 📜[Testing Robustness Against Unforeseen Adversaries](https://arxiv.org/pdf/1908.08016)
 - 📜[HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refus](https://arxiv.org/pdf/2402.04249)
 - 📜[Aligning Ai With Shared Human Values](https://arxiv.org/pdf/2008.02275)
-- 📖[AI Safety Book (Hendrycks)](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+- 📖[AI Safety Book (Hendrycks), Chapters 1-3.3](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
 - 📰[The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - 📜[Training Compute-Optimal Large Language Models (Chinchilla)](https://arxiv.org/pdf/2203.15556.pdf)
 
