@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/23/2024
+- 🧪[ARENA 3.0, Chapter 1](https://arena3-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch)
+
 05/22/2024
 - 📖[AI Safety Book (Hendrycks), Chapters 3.4-4](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
 - 📜[Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
