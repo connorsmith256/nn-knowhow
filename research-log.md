@@ -6,6 +6,21 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/27/2024
+- 📜[Circuit Component Reuse Across Tasks In Transformer Language Models](https://arxiv.org/pdf/2310.08744)
+- 📜[How to use and interpret activation patching](https://arxiv.org/pdf/2404.15255)
+- 📜[Towards Automated Circuit Discovery for Mechanistic Interpretability](https://arxiv.org/pdf/2304.14997)
+- 📰[Attribution Patching: Activation Patching At Industrial Scale](https://www.neelnanda.io/mechanistic-interpretability/attribution-patching)
+- 📜[Causal Scrubbing: a method for rigorously testing interpretability hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing)
+- 📜[Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks](https://arxiv.org/pdf/2207.13243)
+
+05/24/2024
+- 📜[Grokking: Generalization Beyond Overfitting On Small Algorithmic Datasets](https://arxiv.org/pdf/2201.02177)
+- 📰[A Mechanistic Interpretability Analysis of Grokking](https://www.alignmentforum.org/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking)
+- 📜[Scaling Laws and Interpretability of Learning from Repeated Data](https://arxiv.org/pdf/2205.10487)
+- 📜[Deep Double Descent: Where Bigger Models And More Data Hurt](https://arxiv.org/pdf/1912.02292)
+- 📜[Interpretability In The Wild: A Circuit For Indirect Object Identification In Gpt-2 Small](https://arxiv.org/pdf/2211.00593)
+
 05/23/2024
 - 🧪[ARENA 3.0, Chapter 1](https://arena3-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch)
 
