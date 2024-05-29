@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/29/2024
+- 🧪[ARENA 3.0, Chapter 1.2](https://arena3-chapter1-transformer-interp.streamlit.app/[1.2]_Intro_to_Mech_Interp)
+
 05/28/2024
 - 📜[Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/pdf/2405.06624)
 - 📜[Suppressing Pink Elephants with Direct Principle Feedback](https://arxiv.org/pdf/2402.07896)
