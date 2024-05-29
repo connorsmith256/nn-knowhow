@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/28/2024
+- 📜[Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/pdf/2405.06624)
+- 📜[Suppressing Pink Elephants with Direct Principle Feedback](https://arxiv.org/pdf/2402.07896)
+
 05/27/2024
 - 📜[Circuit Component Reuse Across Tasks In Transformer Language Models](https://arxiv.org/pdf/2310.08744)
 - 📜[How to use and interpret activation patching](https://arxiv.org/pdf/2404.15255)
@@ -22,7 +26,7 @@ Legend:
 - 📜[Interpretability In The Wild: A Circuit For Indirect Object Identification In Gpt-2 Small](https://arxiv.org/pdf/2211.00593)
 
 05/23/2024
-- 🧪[ARENA 3.0, Chapter 1](https://arena3-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch)
+- 🧪[ARENA 3.0, Chapter 1.1](https://arena3-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch)
 
 05/22/2024
 - 📖[AI Safety Book (Hendrycks), Chapters 3.4-4](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
