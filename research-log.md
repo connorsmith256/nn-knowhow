@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/30/2024
+- 🧪[ARENA 3.0, Chapter 1.3](https://arena3-chapter1-transformer-interp.streamlit.app/[1.3]_Indirect_Object_Identification)
+
 05/29/2024
 - 🧪[ARENA 3.0, Chapter 1.2](https://arena3-chapter1-transformer-interp.streamlit.app/[1.2]_Intro_to_Mech_Interp)
 
