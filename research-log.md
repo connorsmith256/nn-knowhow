@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+05/31/2024
+- 📰[The Engineer’s Interpretability Sequence](https://www.alignmentforum.org/s/a6ne2ve5uturEEQK7)
+- 📜[Robustness May Be at Odds with Accuracy](https://arxiv.org/pdf/1805.12152)
+- 📜[Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175)
+- 🧪[ARENA 3.0, Chapter 1.4](https://arena3-chapter1-transformer-interp.streamlit.app/[1.4]_Superposition_&_SAEs)
+
 05/30/2024
 - 🧪[ARENA 3.0, Chapter 1.3](https://arena3-chapter1-transformer-interp.streamlit.app/[1.3]_Indirect_Object_Identification)
 
