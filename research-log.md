@@ -6,6 +6,13 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/02/2024
+- 📰[Apollo Research 1-year update](https://www.alignmentforum.org/posts/qK79p9xMxNaKLPuog/apollo-research-1-year-update)
+- 📜[Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning](https://arxiv.org/pdf/2405.12241)
+- 📜[The Local Interaction Basis: Identifying Computationally-Relevant and Sparsely Interacting Features in Neural Networks](https://arxiv.org/pdf/2405.10928)
+- 📰[Sparsify: A mechanistic interpretability research agenda](https://www.alignmentforum.org/posts/64MizJXzyvrYpeKqm/sparsify-a-mechanistic-interpretability-research-agenda)
+- 📜[Towards Principled Evaluations of Sparse Autoencoders for Interpretability and Control](https://arxiv.org/pdf/2405.08366)
+
 05/31/2024
 - 📰[The Engineer’s Interpretability Sequence](https://www.alignmentforum.org/s/a6ne2ve5uturEEQK7)
 - 📜[Robustness May Be at Odds with Accuracy](https://arxiv.org/pdf/1805.12152)
