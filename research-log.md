@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/03/2024
+- 🧪[Trained a SAE on GPT2-small](./projects/sae)
+
 06/02/2024
 - 📰[Apollo Research 1-year update](https://www.alignmentforum.org/posts/qK79p9xMxNaKLPuog/apollo-research-1-year-update)
 - 📜[Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning](https://arxiv.org/pdf/2405.12241)
