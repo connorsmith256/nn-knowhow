@@ -6,6 +6,9 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/04/2024
+- 🧪[Found interpretable features in SAE](./projects/sae)
+
 06/03/2024
 - 🧪[Trained a SAE on GPT2-small](./projects/sae)
 
