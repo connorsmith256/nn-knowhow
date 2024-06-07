@@ -6,6 +6,16 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/06/2024
+- 📜[Adaptive Mixtures of Local Experts](https://people.engr.tamu.edu/rgutier/web_courses/cpsc636_s10/jacobs1991moe.pdf)
+- 📜[Hierarchical mixtures of experts and the EM algorithm](https://www.cs.toronto.edu/~hinton/absps/hme.pdf)
+- 📜[Outrageously Large Neural Networks: The Sparsely-Gated Mixture-Of-Experts Layer](https://arxiv.org/pdf/1701.06538)
+- 📜[Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961)
+- 📜[Unified Scaling Laws For Routed Language Models](https://arxiv.org/pdf/2202.01169)
+- 📜[Measuring the Effects of Data Parallelism on Neural Network Training](https://arxiv.org/pdf/1811.03600)
+- 📜[An Empirical Model of Large-Batch Training](https://arxiv.org/pdf/1812.06162)
+- 📜[The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/pdf/1803.03635)
+
 06/05/2024
 - 📜[LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks](https://arxiv.org/pdf/2402.01817)
 - 🌐[EECS 498-007 Deep Learning for Computer Vision (Lectures 19-21)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
