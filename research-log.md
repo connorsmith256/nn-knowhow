@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/07/2024
+- 📜[Sigma-GPTs: A New Approach to Autoregressive Models](https://arxiv.org/pdf/2404.09562)
+- 📰[Situational Awareness (Aschenbrenner)](https://situational-awareness.ai/)
+
 06/06/2024
 - 📜[Adaptive Mixtures of Local Experts](https://people.engr.tamu.edu/rgutier/web_courses/cpsc636_s10/jacobs1991moe.pdf)
 - 📜[Hierarchical mixtures of experts and the EM algorithm](https://www.cs.toronto.edu/~hinton/absps/hme.pdf)
