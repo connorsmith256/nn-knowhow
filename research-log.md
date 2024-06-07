@@ -6,6 +6,11 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/05/2024
+- 📜[LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks](https://arxiv.org/pdf/2402.01817)
+- 🌐[EECS 498-007 Deep Learning for Computer Vision (Lectures 19-21)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/schedule.html)
+- 📖[AI Safety Book (Hendrycks), Chapters 5.1-5.5](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+
 06/04/2024
 - 🧪[Found interpretable features in SAE](./projects/sae)
 
@@ -54,7 +59,7 @@ Legend:
 - 🧪[ARENA 3.0, Chapter 1.1](https://arena3-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch)
 
 05/22/2024
-- 📖[AI Safety Book (Hendrycks), Chapters 3.4-4](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+- 📖[AI Safety Book (Hendrycks), Chapters 3.4-4.9](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
 - 📜[Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
 
 05/20/2024
