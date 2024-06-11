@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/10/2024
+- 📖[Reinforcement Learning: An Introduction (Sutton & Barto), Chapters 1-3, 13](http://www.incompleteideas.net/book/RLbook2020.pdf)
+- 📜[Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347)
+
 06/07/2024
 - 📜[Sigma-GPTs: A New Approach to Autoregressive Models](https://arxiv.org/pdf/2404.09562)
 - 📰[Situational Awareness (Aschenbrenner)](https://situational-awareness.ai/)
