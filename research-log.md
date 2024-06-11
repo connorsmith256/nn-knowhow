@@ -6,6 +6,16 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/11/2024
+- 📜[Algorithms for Inverse Reinforcement Learning](https://people.eecs.berkeley.edu/~russell/papers/ml00-irl.pdf)
+- 📜[Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/pdf/1603.00448)
+- 📜[Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741)
+- 📜[Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155)
+- 📜[Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2204.05862)
+- 📜[Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/pdf/2212.08073)
+- 📜[RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/pdf/2309.00267)
+- 📜[Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences](https://arxiv.org/pdf/2404.03715)
+
 06/10/2024
 - 📖[Reinforcement Learning: An Introduction (Sutton & Barto), Chapters 1-3, 13](http://www.incompleteideas.net/book/RLbook2020.pdf)
 - 📜[Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347)
