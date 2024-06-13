@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/13/2024
+- 📜[Training Language Models with Language Feedback at Scale](https://arxiv.org/pdf/2303.16755)
+- 📜[Cooperative Inverse Reinforcement Learning](https://arxiv.org/pdf/1606.03137)
+- 📜[Representation Engineering: A Top-Down Approach To Ai Transparency](https://arxiv.org/pdf/2310.01405)
+- 📜[Improving Alignment and Robustness with Circuit Breakers](https://arxiv.org/pdf/2406.04313)
+
 06/11/2024
 - 📜[Algorithms for Inverse Reinforcement Learning](https://people.eecs.berkeley.edu/~russell/papers/ml00-irl.pdf)
 - 📜[Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/pdf/1603.00448)
