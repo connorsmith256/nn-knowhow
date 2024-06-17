@@ -6,6 +6,17 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/17/2024
+- 📜[Supervising strong learners by amplifying weak experts](https://arxiv.org/pdf/1810.08575)
+- 📜[Scalable agent alignment via reward modeling: a research direction](https://arxiv.org/pdf/1811.07871)
+- 📜[AI safety via debate](https://arxiv.org/pdf/1805.00899)
+- 📜[Self-critiquing models for assisting human evaluators](https://arxiv.org/pdf/2206.05802)
+- 📰[Specification gaming: the flip side of AI ingenuity](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/)
+- 📜[Goal Misgeneralization in Deep Reinforcement Learning](https://arxiv.org/pdf/2105.14111)
+- 📜[Eliciting latent knowledge: How to tell if your eyes deceive you](https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/)
+- 📰[Discussion: Challenges with Unsupervised LLM Knowledge Discovery](https://www.lesswrong.com/posts/wtfvbsYjNHYYBmT3k/discussion-challenges-with-unsupervised-llm-knowledge-1)
+- 📜[Eliciting Latent Knowledge from “Quirky” Language Models](https://arxiv.org/pdf/2312.01037)
+
 06/16/2024
 - 📜[Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B: A Technical Report](https://arxiv.org/pdf/2406.07394)
 - 📜[Improve Mathematical Reasoning in Language Models by Automated Process Supervision](https://arxiv.org/pdf/2406.06592)
