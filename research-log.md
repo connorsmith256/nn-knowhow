@@ -6,6 +6,11 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/16/2024
+- 📜[Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B: A Technical Report](https://arxiv.org/pdf/2406.07394)
+- 📜[Improve Mathematical Reasoning in Language Models by Automated Process Supervision](https://arxiv.org/pdf/2406.06592)
+- 📜[Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528)
+
 06/13/2024
 - 📜[Training Language Models with Language Feedback at Scale](https://arxiv.org/pdf/2303.16755)
 - 📜[Cooperative Inverse Reinforcement Learning](https://arxiv.org/pdf/1606.03137)
