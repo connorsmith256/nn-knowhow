@@ -6,6 +6,14 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/18/2024
+- 📺[METR's Talk on Evaluations Research - Beth Barnes, Daniel Ziegler, Ted Suzman](https://www.youtube.com/watch?v=KO72xvYAP-w)
+- 📖[Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://llm-safety-challenges.github.io/challenges_llms.pdf)
+- 📜[Pretraining Language Models with Human Preferences](https://arxiv.org/pdf/2302.08582)
+- 📜[KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306)
+- 📜[Bias-Augmented Consistency Training Reduces Biased Reasoning in Chain-of-Thought](https://arxiv.org/pdf/2403.05518)
+- 📜[Sycophancy To Subterfuge: Investigating Reward Tampering In Language Models](https://arxiv.org/pdf/2406.10162)
+
 06/17/2024
 - 📜[Supervising strong learners by amplifying weak experts](https://arxiv.org/pdf/1810.08575)
 - 📜[Scalable agent alignment via reward modeling: a research direction](https://arxiv.org/pdf/1811.07871)
