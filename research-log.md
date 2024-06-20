@@ -10,6 +10,7 @@ Legend:
 - 📜[Safety Cases: How to Justify the Safety of Advanced AI Systems](https://arxiv.org/pdf/2403.10462)
 - 📰[UK AI SI Inspect](https://ukgovernmentbeis.github.io/inspect_ai/)
 - 🧪[Experimented with Inspect](./projects/inspect-experiment/)
+- 📖[AI Safety Book (Hendrycks), Chapters 6.1-6.10](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
 
 06/19/2024
 - 🧪[Experimented with using control vectors to steer Llama 3 8B](./projects/repengy/repengy.ipynb)
