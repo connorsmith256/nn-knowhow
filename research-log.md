@@ -6,6 +6,11 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/20/2024
+- 📜[Safety Cases: How to Justify the Safety of Advanced AI Systems](https://arxiv.org/pdf/2403.10462)
+- 📰[UK AI SI Inspect](https://ukgovernmentbeis.github.io/inspect_ai/)
+- 🧪[Experimented with Inspect](./projects/inspect-experiment/)
+
 06/19/2024
 - 🧪[Experimented with using control vectors to steer Llama 3 8B](./projects/repengy/repengy.ipynb)
 
