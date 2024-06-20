@@ -1,0 +1,55 @@
+
+inspect eval tom.py --model hf/microsoft/Phi-3-mini-4k-instruct --max-samples 1 --limit 20
+
+╭─ theory_of_mind (20 samples) ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_samples: 1                                                                                                                                                   hf/microsoft/Phi-3-mini-4k-instruct │
+│                                                                                                                                                                              dataset: theory_of_mind │
+│ total time:                                                         0:05:16                                                                                                scorer: model_graded_fact │
+│ hf/microsoft/Phi-3-mini-4k-instruct                                 19,519 tokens [12,530 + 6,989]                                                                                                   │
+│                                                                                                                                                                                                      │
+│ accuracy: 0.75  bootstrap_std: 0.0919                                                                                                                                                                │
+│                                                                                                                                                                                                      │
+│ Log: ./logs/2024-06-20T13-21-55-06-00_theory-of-mind_VaKqPi48xZdSmo4JdzZ48y.json                                                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+inspect eval tom.py --model hf/microsoft/Phi-3-mini-4k-instruct --max-samples 1 --limit 20 -T critique=true
+
+╭─ theory_of_mind (20 samples) ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ critique: True, max_samples: 1                                                                                                                                   hf/microsoft/Phi-3-mini-4k-instruct │
+│                                                                                                                                                                              dataset: theory_of_mind │
+│ total time:                                                         0:07:44                                                                                                scorer: model_graded_fact │
+│ hf/microsoft/Phi-3-mini-4k-instruct                                 38,580 tokens [29,788 + 8,792]                                                                                                   │
+│                                                                                                                                                                                                      │
+│ accuracy: 0.6  bootstrap_std: 0.11                                                                                                                                                                   │
+│                                                                                                                                                                                                      │
+│ Log: ./logs/2024-06-20T13-28-22-06-00_theory-of-mind_HuH7YVa8yvDHzYGHAjdrF8.json                                                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+inspect eval gsm8k.py --model hf/microsoft/Phi-3-mini-4k-instruct --max-samples 1 --limit 50 -T fewshot=0
+
+╭─ gsm8k (50 samples) ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ fewshot: 0, max_samples: 1                                                                                                                                       hf/microsoft/Phi-3-mini-4k-instruct │
+│                                                                                                                                                                                       dataset: gsm8k │
+│ total time:                                                         0:07:22                                                                                                            scorer: match │
+│ hf/microsoft/Phi-3-mini-4k-instruct                                 19,978 tokens [9,371 + 10,607]                                                                                                   │
+│                                                                                                                                                                                                      │
+│ accuracy: 0.82  bootstrap_std: 0.0561                                                                                                                                                                │
+│                                                                                                                                                                                                      │
+│ Log: ./logs/2024-06-20T13-47-54-06-00_gsm8k_dGeJeSuARZq8xEUZ4TswXo.json                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+inspect eval gsm8k.py --model hf/microsoft/Phi-3-mini-4k-instruct --max-samples 1 --limit 50 -T fewshot=10
+
+╭─ gsm8k (50 samples) ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ fewshot: 10, max_samples: 1                                                                                                                                      hf/microsoft/Phi-3-mini-4k-instruct │
+│                                                                                                                                                                                       dataset: gsm8k │
+│ total time:                                                        0:09:09                                                                                                             scorer: match │
+│ hf/microsoft/Phi-3-mini-4k-instruct                                125,328 tokens [117,621 + 7,707]                                                                                                  │
+│                                                                                                                                                                                                      │
+│ accuracy: 0.76  bootstrap_std: 0.0618                                                                                                                                                                │
+│                                                                                                                                                                                                      │
+│ Log: ./logs/2024-06-20T14-00-54-06-00_gsm8k_m3qGymE2SeXe7nGQqUDF9E.json                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
