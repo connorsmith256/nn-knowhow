@@ -8,12 +8,17 @@ Legend:
 
 06/20/2024
 - 📜[Safety Cases: How to Justify the Safety of Advanced AI Systems](https://arxiv.org/pdf/2403.10462)
+    - Proposes framework for decomposing complex AI systems & indentifying arguments for reaching acceptably low risk in ability, control, trustworthiness, & deference
 - 📰[UK AI SI Inspect](https://ukgovernmentbeis.github.io/inspect_ai/)
+    - OSS evals framework. Flexible, supports popular providers
 - 🧪[Experimented with Inspect](./projects/inspect-experiment/)
+    - submitted [bug fix](https://github.com/UKGovernmentBEIS/inspect_ai/pull/58)
 - 📖[AI Safety Book (Hendrycks), Chapters 6.1-6.10](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+    - covered machine ethics & a variety of approaches to align AI to human values, preferences, utility
 
 06/19/2024
 - 🧪[Experimented with using control vectors to steer Llama 3 8B](./projects/repengy/repengy.ipynb)
+    - only succeeded with very simple controls (e.g. all-caps). Suspect this scales better with larger models
 
 06/18/2024
 - 📺[METR's Talk on Evaluations Research - Beth Barnes, Daniel Ziegler, Ted Suzman](https://www.youtube.com/watch?v=KO72xvYAP-w)
