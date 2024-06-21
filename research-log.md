@@ -28,27 +28,46 @@ Legend:
 
 06/18/2024
 - 📺[METR's Talk on Evaluations Research - Beth Barnes, Daniel Ziegler, Ted Suzman](https://www.youtube.com/watch?v=KO72xvYAP-w)
+    - since performance is sensitive to prompting, evals may be misleading. Tool use, CoT improve performance
+    - METR's platform adopted by UKAISI
 - 📖[Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://llm-safety-challenges.github.io/challenges_llms.pdf)
+    - Notable: the nature of ICL is unknown, capabilities are not human-shaped, forecasting from scaling is hard, agents pose unique risks, finetuning is mostly superficial, evals are making progress but not robust enough, interp is a big challenge and can be misleading, jailbreaks are way too easy, data poisoning/backdoors are theoretically scary, it's not clear what value alignment means, capabilities are dual-use, governance is lagging capabilities
 - 📜[Pretraining Language Models with Human Preferences](https://arxiv.org/pdf/2302.08582)
+    - HF during pretraining might lead to better alignment, might not come at the cost of performance
 - 📜[KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306)
+    - Generalizes approaches like DPO to HALOs (human-aware losses), proposes maximizing utility of generations instead of likelihood of preferences
 - 📜[Bias-Augmented Consistency Training Reduces Biased Reasoning in Chain-of-Thought](https://arxiv.org/pdf/2403.05518)
+    - BCT may reduce bias such as sycophancy, post hoc rationalization, etc.
 - 📜[Sycophancy To Subterfuge: Investigating Reward Tampering In Language Models](https://arxiv.org/pdf/2406.10162)
+    - Started with curriculum of gameable environments, found models (rarely) learn to generalize to worse behavior e.g. reward tampering. Gaming remains even after attempting to train it away
 
 06/17/2024
 - 📜[Supervising strong learners by amplifying weak experts](https://arxiv.org/pdf/1810.08575)
+    - Iterated amplification (HCH), proposed to progressively specify more complicated goals (eventual goal of iterating beyond human ability to evaluate)
 - 📜[Scalable agent alignment via reward modeling: a research direction](https://arxiv.org/pdf/1811.07871)
+    - Iterated amplification applied to scaffold agent alignment
 - 📜[AI safety via debate](https://arxiv.org/pdf/1805.00899)
+    - Idea to scale beyond human ability by having humans judge AI debates trained via self-play (assumes evaluating arguments is easier than generating them)
 - 📜[Self-critiquing models for assisting human evaluators](https://arxiv.org/pdf/2206.05802)
+    - Trained GPT-3 sized models to do self-critique (not as good as human critique)
 - 📰[Specification gaming: the flip side of AI ingenuity](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/)
+    - Several examples of RL agents engaging in specification gaming
 - 📜[Goal Misgeneralization in Deep Reinforcement Learning](https://arxiv.org/pdf/2105.14111)
+    - Out-of-distribution generalization failures in maze solving, platformer, keys & chests games
 - 📜[Eliciting latent knowledge: How to tell if your eyes deceive you](https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/)
+    - Christiano's ELK proposal (Smart Vault)
 - 📰[Discussion: Challenges with Unsupervised LLM Knowledge Discovery](https://www.lesswrong.com/posts/wtfvbsYjNHYYBmT3k/discussion-challenges-with-unsupervised-llm-knowledge-1)
+    - Challenges with contrast-consistent search (CCS), related to ELK
 - 📜[Eliciting Latent Knowledge from “Quirky” Language Models](https://arxiv.org/pdf/2312.01037)
+    - Attempt by EleutherAI to do ELK
 
 06/16/2024
 - 📜[Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B: A Technical Report](https://arxiv.org/pdf/2406.07394)
+    - Using MCTS with Llama 3 8B to achieve (near) GPT-4 level performance on GSM8K & MATH
 - 📜[Improve Mathematical Reasoning in Language Models by Automated Process Supervision](https://arxiv.org/pdf/2406.06592)
+    - Using MCTS with Gemini Pro to achieve (near) GPT-4 level performance on MATH
 - 📜[Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528)
+    - Replaced matrix multiplications with ternary addition/negation. Implemented on FPGA
 
 06/13/2024
 - 📜[Training Language Models with Language Feedback at Scale](https://arxiv.org/pdf/2303.16755)
