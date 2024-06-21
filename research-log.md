@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/21/2024
+- 📜[Connecting the Dots: LLMs can Infer and Verbalize Latent Structure from Disparate Training Data](https://arxiv.org/pdf/2406.14546)
+    - inductive out-of-context reasoning (OOCR): infer value of latent information during (finetuning) training. High variance, but better than ICL. GPT-4 did better than GPT-3.5
+- 📰[Attention Output SAEs Improve Circuit Analysis](https://www.alignmentforum.org/posts/EGvtgB7ctifzxZg6v/attention-output-saes-improve-circuit-analysis)
+    - Trained SAEs on every layer of GPT-2 Small, did interp on IOI circuit, built [Circuit Explorer](https://d483a8995f67545839dbee56b8c864fca.clg07azjl.paperspacegradient.com/) tool for recursive DFA. Acknowledge SAEs are still unreliable
+
 06/20/2024
 - 📜[Safety Cases: How to Justify the Safety of Advanced AI Systems](https://arxiv.org/pdf/2403.10462)
     - Proposes framework for decomposing complex AI systems & indentifying arguments for reaching acceptably low risk in ability, control, trustworthiness, & deference
