@@ -6,6 +6,15 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/27/2024
+- 🧪[Implemented PPO for GridWorld](./projects/rl_gym/ppo.py)
+
+06/26/2024
+- 🧪[Implemented DQN for GridWorld](./projects/rl_gym/dql.py)
+
+06/25/2024
+- 🧪[Implemented Q-Learning for a GridWorld](./projects/rl_gym/q-learning.py)
+
 06/21/2024
 - 📜[Connecting the Dots: LLMs can Infer and Verbalize Latent Structure from Disparate Training Data](https://arxiv.org/pdf/2406.14546)
     - inductive out-of-context reasoning (OOCR): infer value of latent information during (finetuning) training. High variance, but better than ICL. GPT-4 did better than GPT-3.5
