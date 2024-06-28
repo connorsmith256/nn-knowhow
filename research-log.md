@@ -6,20 +6,31 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+06/28/2024
+- 📜[Confidence Regulation Neurons in Language Models](https://arxiv.org/pdf/2406.16254)
+    - LLMs have "entropy neurons" which can modify the output distribution without directly impacting the logits, and "frequency neurons," which directly modify logits along the direction of the token frequency distribution. Reproduced from GPT-2 small up to Llama 7B (entropy neurons) and Pythia 1B (frequency neurons)
+- 📜[Interpreting Attention Layer Outputs with Sparse Autoencoders](https://arxiv.org/pdf/2406.17759)
+    - Same as Attention Output SAEs Improve Circuit Analysis entry from 06/21
+- 📜[LLM Critics Help Catch LLM Bugs](https://cdn.openai.com/llm-critics-help-catch-llm-bugs-paper.pdf)
+    - OpenAI trained CriticGPT for scalable oversight. Started with GPT4, used RLHF pipeline: human-rated critiques of (question, answer) data, used to train a reward model, optimized a policy with PPO, with Force Sampling Beam Search (FSBS) to reduce rate of hallucinations/nitpicks. CriticGPT outperforms humans and ChatGPT
+
 06/27/2024
 - 🧪[Implemented PPO for GridWorld](./projects/rl_gym/ppo.py)
+    - When the agent can find a solution, it converged much more quickly and stably than DQN. Still surpisingly fails to solve some seeds with bad obstacle configurations/sparser reward
 
 06/26/2024
 - 🧪[Implemented DQN for GridWorld](./projects/rl_gym/dql.py)
+    - Holy instability Batman. Had to use L1 loss to get reasonable level of success. Sparse reward likely makes this harder for larger grids
 
 06/25/2024
 - 🧪[Implemented Q-Learning for a GridWorld](./projects/rl_gym/q-learning.py)
+    - Surprisingly simple & effective, but this was a very simple task
 
 06/21/2024
 - 📜[Connecting the Dots: LLMs can Infer and Verbalize Latent Structure from Disparate Training Data](https://arxiv.org/pdf/2406.14546)
     - inductive out-of-context reasoning (OOCR): infer value of latent information during (finetuning) training. High variance, but better than ICL. GPT-4 did better than GPT-3.5
 - 📰[Attention Output SAEs Improve Circuit Analysis](https://www.alignmentforum.org/posts/EGvtgB7ctifzxZg6v/attention-output-saes-improve-circuit-analysis)
-    - Trained SAEs on every layer of GPT-2 Small, did interp on IOI circuit, built [Circuit Explorer](https://d483a8995f67545839dbee56b8c864fca.clg07azjl.paperspacegradient.com/) tool for recursive DFA. Acknowledge SAEs are still unreliable
+    - Trained attention SAEs on every layer of GPT-2 Small, did interp on IOI circuit, built [Circuit Explorer](https://d483a8995f67545839dbee56b8c864fca.clg07azjl.paperspacegradient.com/) tool for recursive DFA. Acknowledge SAEs are still unreliable
 
 06/20/2024
 - 📜[Safety Cases: How to Justify the Safety of Advanced AI Systems](https://arxiv.org/pdf/2403.10462)
