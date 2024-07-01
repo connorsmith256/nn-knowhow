@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/01/2024
+- 📖[AI Safety Book (Hendrycks), Chapters 7.1-7.7](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+    - Covered game theory, cooperation/conflict, collective action problems, & evolutionary pressures. The most salient idea is maliciousness from AI systems is not even necessary for bad outcomes for humans; rationality and selection pressure is enough
+
 06/28/2024
 - 📜[Confidence Regulation Neurons in Language Models](https://arxiv.org/pdf/2406.16254)
     - LLMs have "entropy neurons" which can modify the output distribution without directly impacting the logits, and "frequency neurons," which directly modify logits along the direction of the token frequency distribution. Reproduced from GPT-2 small up to Llama 7B (entropy neurons) and Pythia 1B (frequency neurons)
