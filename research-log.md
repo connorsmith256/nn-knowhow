@@ -6,6 +6,15 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/02/2024
+- 📖[AI Safety Book (Hendrycks), Chapters 8.1-8.9](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
+    - Covered uncertainty around timelines/takeoff speeds, economic growth, distribution of AI power, distribution of access. Discussed tradeoffs of open access (allowing bottom-up misuse) vs. tight control (allowing top-down misuse/lock-in). Compute is a natural target for governance since it's physical and quantifiable. Government and international cooperation will become increasingly important as risk increases.
+- 🌐[Intro to ML Safety, Lectures 1-12](https://course.mlsafety.org/index.html)
+    - Lectures 1-9: mostly recap/covered in safety book
+    - Lecture 10, Anomaly Detection: AUROC, AUPR, FPR95 can all be used to evaluate anomaly detection. (Negative) prediction confidence can be used for anomaly detection, but isn't robust to adversarial inputs. Outlier exposure can help detect unseen OOD examples/anomalies. Training on geometric transformations (rotation, translation) can also help
+    - Lecture 11, Interpretable Uncertainty: modern NNs are miscalibrated (often overconfident), especially on OOD data. Temperature scaling (fixed, post-training) & ensembles can significantly reduce calibration error.
+    - Lecture 12, Transparency: covered saliency maps & feature visualization. Good reminder that a lot of interpretability work (on transformers) is less than two years old!
+
 07/01/2024
 - 📖[AI Safety Book (Hendrycks), Chapters 7.1-7.7](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
     - Covered game theory, cooperation/conflict, collective action problems, & evolutionary pressures. The most salient idea is maliciousness from AI systems is not even necessary for bad outcomes for humans; rationality and selection pressure is enough
