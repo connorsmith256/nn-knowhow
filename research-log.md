@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/03/2024
+- 🌐[Intro to ML Safety, Lectures 13-14](https://course.mlsafety.org/index.html)
+    - Lecture 13, Trojans: data poisoning of public datasets works even when a small fraction is poisoned. Open-weight models can also be manipulated. Anomaly detection, Neural Cleanse, & meta-networks can be used to detect trojans, but not 100% of the time
+    - Lecture 14, Detecting Emergent Behavior: many examples of unanticipated capabilities emerging from more params/compute. Emergent, instrumentally convergent goals (e.g. self-preservation) are concerning for safety. Proxy gaming has emerged many times, and can sometimes be detected by comparing to a trusted policy
+    - Lecture 15, Honest Models: assessing a model's "beliefs" is hard. Older models did poorly on TruthfulQA, but this lecture appears outdated, since modern RLHF models perform significantly better
+
 07/02/2024
 - 📖[AI Safety Book (Hendrycks), Chapters 8.1-8.9](https://drive.google.com/file/d/1JN7-ZGx9KLqRJ94rOQVwRSa7FPZGl2OY/view)
     - Covered uncertainty around timelines/takeoff speeds, economic growth, distribution of AI power, distribution of access. Discussed tradeoffs of open access (allowing bottom-up misuse) vs. tight control (allowing top-down misuse/lock-in). Compute is a natural target for governance since it's physical and quantifiable. Government and international cooperation will become increasingly important as risk increases.
