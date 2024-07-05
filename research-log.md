@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/05/2024
+- 📜[Uncovering Latent Human Wellbeing In Language Model Embeddings](https://arxiv.org/pdf/2402.11777)
+    - Used PCA to reduce dimensionality from embeddings and extract features relevant to wellbeing, using labeled prompts from ETHICS utilitarianism dataset. Small models represented wellbeing to an extent, bigger models did better
+- 📜[When Representations Align: Universality in Representation Learning Dynamics](https://arxiv.org/pdf/2402.09142)
+    - Makes a case that given smooth encoder/decoder maps, high expressivity (enough model parameters/complexity), and small initial weights, structured representations (as opposed to overfitting) minimizes loss and is a natural consequence of gradient descent. Analysis & empirical data are limited to simple datasets & ignore inductive biases of models
+
 07/03/2024
 - 🌐[Intro to ML Safety, Lectures 13-14](https://course.mlsafety.org/index.html)
     - Lecture 13, Trojans: data poisoning of public datasets works even when a small fraction is poisoned. Open-weight models can also be manipulated. Anomaly detection, Neural Cleanse, & meta-networks can be used to detect trojans, but not 100% of the time
