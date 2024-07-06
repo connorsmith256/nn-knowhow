@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/06/2024
+- 📜[Understanding Generalization through Visualizations](https://arxiv.org/pdf/1906.03291)
+    - Despite intuitions from the past, models do tend to generalize well to test data, perhaps because the loss landscape in high dimensions is mostly occupied by flat basins, leading to implicit regularization
+
 07/05/2024
 - 📜[Uncovering Latent Human Wellbeing In Language Model Embeddings](https://arxiv.org/pdf/2402.11777)
     - Used PCA to reduce dimensionality from embeddings and extract features relevant to wellbeing, using labeled prompts from ETHICS utilitarianism dataset. Small models represented wellbeing to an extent, bigger models did better
