@@ -6,6 +6,16 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/08/2024
+- 📜[On scalable oversight with weak LLMs judging strong LLMs](https://arxiv.org/pdf/2407.04622)
+    - Compared debate to consultancy and direct question-answering for inference (not training). Debate outperforms consultancy, but QA with article access does significantly better than either. Obvious next steps are to train the debaters via self-play using the judge's decision as the reward signal
+- 📜[Eureka: Human-Level Reward Design Via Coding Large Language Models](https://arxiv.org/pdf/2310.12931)
+    - Given RL environment code, an LLM (GPT-4) generates candidate reward functions. Each are simulated, and the LLM is given detailed performance statistics as feedback to iteratively generate a new batch of reward functions. After several iterations, the final reward function often outperforms one defined by human experts
+- 📜[DrEureka: Language Model Guided Sim-To-Real Transfer](https://arxiv.org/pdf/2406.01967)
+    - Extends Eureka by generating reward functions that are (1) robust to domain randomization (DR) to account for real-world physics and (2) produce safer behavior. Feasible ranges on DR parameters to guide the LLM are learned via parallelized simulations. They achieved better than human-designed performance and got a robot dog to walk on a yoga ball for several minutes, without intermediate real-world testing
+- 📰[An Extremely Opinionated Annotated List of My Favourite Mechanistic Interpretability Papers v2](https://www.alignmentforum.org/posts/NfFST5Mio7BCAQHPA/an-extremely-opinionated-annotated-list-of-my-favourite)
+    - Great summary from Nanda on latest mechinterp research. Pleased to see most of the papers he mentions are linked in this research log
+
 07/06/2024
 - 📜[Understanding Generalization through Visualizations](https://arxiv.org/pdf/1906.03291)
     - Despite intuitions from the past, models do tend to generalize well to test data, perhaps because the loss landscape in high dimensions is mostly occupied by flat basins, leading to implicit regularization
