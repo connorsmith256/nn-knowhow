@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/09/2024
+- 📜[Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs](https://arxiv.org/pdf/2407.04694)
+    - New benchmark for measuring situational awareness, composed of self-knowledge (facts, causal influence, mechanistic introspection), inferences (training vs. deployment stages, self-recognition of text authorship), & actions (leveraging knowledge of identity, avoiding pattern imitation). No models are currently close to saturation, but scores were higher than I expected
+
 07/08/2024
 - 📜[On scalable oversight with weak LLMs judging strong LLMs](https://arxiv.org/pdf/2407.04622)
     - Compared debate to consultancy and direct question-answering for inference (not training). Debate outperforms consultancy, but QA with article access does significantly better than either. Obvious next steps are to train the debaters via self-play using the judge's decision as the reward signal
