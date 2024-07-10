@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/10/2024
+- 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 1-5](https://www.deeplearningbook.org/)
+    - Revisited/brushed up on foundations
+
 07/09/2024
 - 📜[Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs](https://arxiv.org/pdf/2407.04694)
     - New benchmark for measuring situational awareness, composed of self-knowledge (facts, causal influence, mechanistic introspection), inferences (training vs. deployment stages, self-recognition of text authorship), & actions (leveraging knowledge of identity, avoiding pattern imitation). No models are currently close to saturation, but scores were higher than I expected
