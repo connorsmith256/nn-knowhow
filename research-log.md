@@ -6,6 +6,11 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/11/2024
+- 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 6-7](https://www.deeplearningbook.org/)
+    - Chapter 6: Historical coverage was really helpful, e.g. dominance of ReLU resulted from avoiding saturation & two-sided activations, cross-entropy improved over MSE's saturation/slow learning
+    - Chapter 7: Good coverage of regularization, esp. L2 as MAP Bayesian inference with a Gaussian prior on weights (discourages high weights) & L1 as the same but with a Laplace distribution prior (encourages sparsity). Also interesting to think of dropout as approximating bagging
+
 07/10/2024
 - 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 1-5](https://www.deeplearningbook.org/)
     - Revisited/brushed up on foundations
