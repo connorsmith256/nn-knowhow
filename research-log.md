@@ -6,10 +6,14 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/12/2024
+- 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 8, 11](https://www.deeplearningbook.org/)
+    - Chapter 8, Optimization: local minima in high-dimensional space are unlikely to be far from the global minimum, but saddle points are common, incentivizing optimization algorithms that can escape locally small gradients. Gradient clipping can prevent taking too large a step off a cliff. Momentum overcomes poor conditioning of the Hessian by using the gradient to update the momentum/velocity rather than the weights directly. Interesting to see the recommendation on treating weight initialization as a hyperparameter, as more recent texts have not
+
 07/11/2024
 - 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 6-7](https://www.deeplearningbook.org/)
-    - Chapter 6: Historical coverage was really helpful, e.g. dominance of ReLU resulted from avoiding saturation & two-sided activations, cross-entropy improved over MSE's saturation/slow learning
-    - Chapter 7: Good coverage of regularization, esp. L2 as MAP Bayesian inference with a Gaussian prior on weights (discourages high weights) & L1 as the same but with a Laplace distribution prior (encourages sparsity). Also interesting to think of dropout as approximating bagging
+    - Chapter 6, Feedforward Networks: Historical coverage was really helpful, e.g. dominance of ReLU resulted from avoiding saturation & two-sided activations, cross-entropy improved over MSE's saturation/slow learning
+    - Chapter 7, Regularization: Good coverage, esp. L2 as MAP Bayesian inference with a Gaussian prior on weights (discourages high weights) & L1 as the same but with a Laplace distribution prior (encourages sparsity). Also interesting to think of dropout as approximating bagging
 
 07/10/2024
 - 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 1-5](https://www.deeplearningbook.org/)
