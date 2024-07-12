@@ -7,8 +7,10 @@ Legend:
 - 📺: videos
 
 07/12/2024
-- 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 8, 11](https://www.deeplearningbook.org/)
+- 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapter 8](https://www.deeplearningbook.org/)
     - Chapter 8, Optimization: local minima in high-dimensional space are unlikely to be far from the global minimum, but saddle points are common, incentivizing optimization algorithms that can escape locally small gradients. Gradient clipping can prevent taking too large a step off a cliff. Momentum overcomes poor conditioning of the Hessian by using the gradient to update the momentum/velocity rather than the weights directly. Interesting to see the recommendation on treating weight initialization as a hyperparameter, as more recent texts have not
+- 📖[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+    - Brushed through quickly. The visual explanation for why neural nets can approximate any function was nice. Both the vanishing and exploding gradient problems in deep networks result from the gradient in early layers being the product of terms from many later layers, leading to instability
 
 07/11/2024
 - 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapters 6-7](https://www.deeplearningbook.org/)
