@@ -6,6 +6,14 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/15/2024
+- 📜[CRADLE: Empowering Foundation Agents Towards General Computer Control](https://arxiv.org/pdf/2403.03186)
+    - Fed screenshot/low-FPS video into GPT-4o. Scaffolded with self-reflection on inpupts, inference to select next task, learned & stored skills (code to interact with a mouse + keyboard), and episodic & procedural memory for improving performance over time. This framework was able to perform a variety of tasks in games/software with >50% success
+- 📜[STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning](https://arxiv.org/pdf/2203.14465)
+    - Fine-tuned GPT-J-6B using STaR: starting with an initial few-shot prompt showing rationales, the model was trained to generate rationales to the input questions. Correct answer + rationale examples were added to the dataset. If the model wasn't able to come up with the right answer on its own, a hint was given in the form of the correct answer, and the model was able to generate a corresponding rationale. The process was iterated using the augmented dataset until performance plateaued. Performance after STaR was close to GPT-3 (30x larger), indicating models can "bootstrap" some amount of reasoning
+- 📜[Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/pdf/2403.09629)
+    - Generalizes the idea from STaR by having the model generate internal thoughts/rationales at each token position (in parallel), based off the preceding tokens. At the end of a thought, the post-rationale and base logits are mixed using a shallow MLP ("mixing head"). Rationales are optimized during training using REINFORCE, where the reward for a thought is based on how well it improves prediction of future tokens (the base future tokens are assumed to be ground-truth). Performance of Mistral 7B improved on GSM8K and CommonsenseQA, with "difficult" tokens benefiting more from internal reasoning. A future step could be dynamically determining when to generate/end thought, allowing a model to allocate variable compute during generation
+
 07/12/2024
 - 📖[Deep Learning (Goodfellow, Bengio, Courville), Chapter 8](https://www.deeplearningbook.org/)
     - Chapter 8, Optimization: local minima in high-dimensional space are unlikely to be far from the global minimum, but saddle points are common, incentivizing optimization algorithms that can escape locally small gradients. Gradient clipping can prevent taking too large a step off a cliff. Momentum overcomes poor conditioning of the Hessian by using the gradient to update the momentum/velocity rather than the weights directly. Interesting to see the recommendation on treating weight initialization as a hyperparameter, as more recent texts have not
