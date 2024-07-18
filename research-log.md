@@ -6,6 +6,20 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/18/2024
+- 📜[Open-Ended Learning Leads to Generally Capable Agents](https://arxiv.org/pdf/2107.12808)
+    - Defined a 3D "XLand" environment and used population based training (PBT) and generational training to improve agent fitness over time. Agents have a Goal Attention Module (GOAT) to structure, process, and attend to its goal. Agents achieved some amount of generalization on held-out tasks and finetuning for transfer
+- 📰[A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/posts/2018-02-19-rl-overview/)
+    - Good overview of concepts, popular algorithms, and development over time. The reference to the "deadly triad" (bootstrapping, function approximation, off-policy training) leading to instability was helpful
+- 📰[Stitching SAEs of different sizes](https://www.alignmentforum.org/posts/baJyjpktzmcmRfosq/stitching-saes-of-different-sizes)
+    - Categorized features in larger vs smaller SAEs as "novel" vs "reconstruction" (sparsify) features. Mixing novel features from larger SAEs into smaller SAEs improved the performance of the smaller SAE. They also created "Frankenstein" SAEs by iteratively merging in novel features, achieving (slightly) better performance with smaller size
+- 📰[SAEs (usually) Transfer Between Base and Chat Models](https://www.alignmentforum.org/posts/fmwk6qxrpW8d4jvbd/saes-usually-transfer-between-base-and-chat-models)
+    - Found that SAEs trained on base models perform well on chat models, and the gap can be closed further by fine-tuning the SAE. Seems to be further evidence that chat models' residual streams are very similar to base models
+- 📰[An Introduction to Representation Engineering - an activation-based paradigm for controlling LLMs](https://www.alignmentforum.org/posts/3ghj8EuKzwD3MQR5G/an-introduction-to-representation-engineering-an-activation)
+    - No new information, but a great summary of the approach
+- 📜[Prover-Verifier Games Improve Legibility Of LLM Outputs](https://cdn.openai.com/prover-verifier-games-improve-legibility-of-llm-outputs/legibility.pdf)
+    - OpenAI trained provers (helpful and sneaky) and verifiers to investigate whether we can train models to produce accurate outputs that are legible to humans. Joint training resulted in a model that was more accurate than initialization and still legibile. The sneaky prover's inserted errors became more subtle over time. A model trained only for correctness had the highest performance (and poor legibility), indicating a "legibility tax" tradeoff between accuracy and legibility
+
 07/15/2024
 - 📜[CRADLE: Empowering Foundation Agents Towards General Computer Control](https://arxiv.org/pdf/2403.03186)
     - Fed screenshot/low-FPS video into GPT-4o. Scaffolded with self-reflection on inpupts, inference to select next task, learned & stored skills (code to interact with a mouse + keyboard), and episodic & procedural memory for improving performance over time. This framework was able to perform a variety of tasks in games/software with >50% success
