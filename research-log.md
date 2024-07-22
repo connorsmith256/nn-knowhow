@@ -6,6 +6,16 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/22/2024
+- 📜[Jumping Ahead: Improving Reconstruction Fidelity with JumpReLU Sparse Autoencoders](https://storage.googleapis.com/jumprelu-saes-paper/JumpReLU_SAEs.pdf)
+    - Trained SAEs on Gemma 2 9B, using JumpReLU and an L0 penalty (both requiring pseudo-derivatives to train) to decrease false positives of activations and encourage sparsity. JumpReLU had a similar number of very-high-frequency (>10%) features to TopK (more than Gated), but fewer high-frequency (>1%) than TopK and Gated. All three architectures exhibit similar manual (human) and automated interpretability
+- 📜[Truth is Universal: Robust Detection of Lies in LLMs](https://arxiv.org/pdf/2407.12831)
+    - Previous research failed to find a single "truth" direction in LLM activation space that generalizes from affirmative statements to negations. They found a 2D subspace consisting of a general truth direction and a polarity-sensitive truth direction, which accounts for most of the model's sense of truth and can generalize to disjunctions and conjunctions. Activations projected onto these directions can be checked as a rudimentary lie detector, with strong accuracy for simple facts (though less robust for more complicated statements)
+- 📜[The Platonic Representation Hypothesis](https://arxiv.org/pdf/2405.07987)
+    - Mostly interesting from a philosophical perspective. Makes an argument for "convergent realism": just like human science, even though training data is biased/limited, models can capture "true" representations. Requiring multi-task performance (more general), increasing model capacity, and encouraging simplicity (either via explicit regularization or an implicit Occam's razor) are three hypotheses for why convergence would happen. Predictions for this view include scaling being sufficient (though not efficient), training data helping cross-modality performance (only up to the limit that the different modalities can share information), and reduced hallucination/bias.
+- 📜[Lean-STaR: Learning to Interleave Thinking and Proving](https://arxiv.org/pdf/2407.10040)
+    - Applies the idea behind STaR to theorem proving. Human-written proofs + retrospective thoughts from GPT-4 are used to start. The rationale is used to help predict subsequent tactics. Successful trajectories are added to the dataset (as in STaR) and used to finetune for the next iteration. This method outperformed SFT & expert iteration alone on multiple models. Unclear whether this would scale to bigger models, or if the initial thoughts from GPT-4 are enabling the improvement
+
 07/18/2024
 - 📜[Open-Ended Learning Leads to Generally Capable Agents](https://arxiv.org/pdf/2107.12808)
     - Defined a 3D "XLand" environment and used population based training (PBT) and generational training to improve agent fitness over time. Agents have a Goal Attention Module (GOAT) to structure, process, and attend to its goal. Agents achieved some amount of generalization on held-out tasks and finetuning for transfer
