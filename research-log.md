@@ -6,6 +6,24 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/23/2024
+- 📜[The Alignment Problem from a Deep Learning Perspective](https://arxiv.org/pdf/2209.00626)
+    - First published in Aug 2022. Covers popular ideas: reward misspecification + situational awareness from RLHF can lead to reward hacking, which can exacerbate misalignment. As systems become more generally capable, deception and power-seeking become more likely and risky, especially as we cede control to autonomous agents
+- 📰[Thoughts on the impact of RLHF research](https://www.alignmentforum.org/posts/vwu4kegAEZTBtpT6p/thoughts-on-the-impact-of-rlhf-research)
+    - Christiano makes the case that RLHF was a relatively simple alignment technique that gave the field much-needed empirical data, and more complicated techniques will share technical ingredients, so the development was a net positive. He thinks RLHF had a small marginal impact on timelines, avoiding RLHF would have introduced a capability overhang, and effective empirical safety work requires working with systems that are closer to posing a risk
+- 📺[RLHF: How to Learn from Human Feedback with Reinforcement Learning](https://www.youtube.com/watch?v=56PlUikhB3o)
+    - Good refresher:
+        - RL will often over-exploit, so including KL-control in the loss prevents too much divergence from the base (or SFT) model (limits to infinite self-play)
+        - human ratings are expensive, and RL is sample-hungry and unstable, so turning it into supervised RL with a reward model is much cheaper/efficient
+        - offline RL (training the RM) leverages large amount of existing data & allows reusing existing supervised learning infrastructure
+        - high-quality labels for the RM is a necessity
+- 📜[WARM: On the Benefits of Weight Averaged Reward Models](https://arxiv.org/pdf/2401.12187)
+    - Trains a single RM created from the average of RMs trained using different hyperparameters & starting from different SFT checkpoints. Linear interpolation of weights relies on "linear mode connectivity" of models with shared pre-training. Weight averaging improves reliability on OOD tests and is more robust than ensembling (possibly due to reduced memorization)
+- 📜[Simple Synthetic Data Reduces Sycophancy In Large Language Models](https://arxiv.org/pdf/2308.03958)
+    - By default, instruction tuning increases sycophancy, and larger models exhibit this trait more. Sycophancy can be modestly reduced by training on a synthetic dataset with examples disregarding user opinions, particularly those which the model knows are incorrect
+- 📜[Compositional Preference Models For Aligning LMs](https://arxiv.org/pdf/2310.13011)
+    - Decomposes a single preference score into distinct features, each of which gets a score from an LLM. Feature scores are re-aggregated using a logistic regression. CPMs were more robust to overoptimization and more preferred by another LLM than reference PMs
+
 07/22/2024
 - 📜[Jumping Ahead: Improving Reconstruction Fidelity with JumpReLU Sparse Autoencoders](https://storage.googleapis.com/jumprelu-saes-paper/JumpReLU_SAEs.pdf)
     - Trained SAEs on Gemma 2 9B, using JumpReLU and an L0 penalty (both requiring pseudo-derivatives to train) to decrease false positives of activations and encourage sparsity. JumpReLU had a similar number of very-high-frequency (>10%) features to TopK (more than Gated), but fewer high-frequency (>1%) than TopK and Gated. All three architectures exhibit similar manual (human) and automated interpretability
