@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/24/2024
+- 📜[Defending Against Unforeseen Failure Modes with Latent Adversarial Training](https://arxiv.org/pdf/2403.05030)
+    - LAT perturbs latent state instead of inputs, as in AT. The optimal layer to perturb is found empirically. Models were fine-tuned using poisoned data to insert trojans, then fine-tuned with clean data & the given technique. LAT pareto dominates AT in image classification, text classification, and text generation (7B model) for data forgetting, although it can entrench trojans sometimes, just like AT
+- 📜[Targeted Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs](https://arxiv.org/pdf/2407.15549)
+    - Applied LAT to multiple layers of Llama2-7B-chat and Llama3-8B-instruct, as an additional step beyond refusal training (RT). The LAT models maintained performance on benign requests and reduced attack success rates better than robust refusal dynamic defense (R2D2), while requiring 36x fewer GPU hours to fine-tune. DPO + LAT was also able to remove backdoor triggers with minimal impact on general performance. Adding LAT to unlearning methods also improved success with minimal impact to performance, although relearning unwanted knowledge remains trivial
+
 07/23/2024
 - 📜[The Alignment Problem from a Deep Learning Perspective](https://arxiv.org/pdf/2209.00626)
     - First published in Aug 2022. Covers popular ideas: reward misspecification + situational awareness from RLHF can lead to reward hacking, which can exacerbate misalignment. As systems become more generally capable, deception and power-seeking become more likely and risky, especially as we cede control to autonomous agents
