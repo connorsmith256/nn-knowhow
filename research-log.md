@@ -6,6 +6,14 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/25/2024
+- 📰[AI achieves silver-medal standard solving International Mathematical Olympiad problems](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/)
+    - AlphaProof uses an LLM to translate math problems into formal language. The backend uses AlphaZero's algorithm (MCTS + self-play with synthetic data), which sounds very similar to the Lean-STaR paper from 07/22. Note for the headline performance, problems were manually translated to Lean, and LLM translation is still WIP: "the results showed great promise"
+- 📜[Rule Based Rewards for Language Model Safety](https://cdn.openai.com/rule-based-rewards-for-language-model-safety.pdf)
+    - Leverages LLMs' ability on specific classification tasks to evaluate whether a completion follows a behavior policy. A grader LLM estimates the probability a completion meets each proposition/combined class features defined in the behavior policy. The classification prompts fed into the grader are tuned from a small Gold dataset created by human researchers. The classification probabilities are fed into the Rule-Based Reward (RBR) model, a small linear model fitted against a synthetic dataset. The RBR score is combined with the helpful-only RM for the total reward used in PPO training. Including RBR in training led to fewer over-refusals on safe prompts while maintaining appropriate refusals and model performance
+- 📜[Exploring Scaling Trends in LLM Robustness](https://far.ai/post/2024-07-robust-llm/paper.pdf)
+    - Found AT effectiveness scaled with model size (on Pythia models from 14M to 12B), and importantly, larger models were more sample efficient. AT against one attack also transferred to other attacks
+
 07/24/2024
 - 📜[Defending Against Unforeseen Failure Modes with Latent Adversarial Training](https://arxiv.org/pdf/2403.05030)
     - LAT perturbs latent state instead of inputs, as in AT. The optimal layer to perturb is found empirically. Models were fine-tuned using poisoned data to insert trojans, then fine-tuned with clean data & the given technique. LAT pareto dominates AT in image classification, text classification, and text generation (7B model) for data forgetting, although it can entrench trojans sometimes, just like AT
