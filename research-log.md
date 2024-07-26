@@ -6,6 +6,16 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/26/2024
+- 📜[Planning behavior in a recurrent neural network that plays Sokoban](https://arxiv.org/pdf/2407.15421)
+    - Reproduced a prior setup using a Deep Repeating ConvLSTM (DRC) architecture to solve Sokoban puzzles. By repeating the initial observation and advancing the DRC hidden state at the start of an episode, the agent gets to "think" before taking an action. This improves the agent's ability to solve harder puzzles. The agent also naturally exhibits cycling/"pacing" behavior; however, the more thinking steps the agent is given at the start of the episode, the less it cycles on its own, indicating that pacing is a learned form of planning/mesa-optimization
+- 📺[Eric Wallace: Memorization in language models](https://www.youtube.com/watch?v=dXTfY7tgb-o)
+    - Repeating data makes it easier to memorize, but larger models are also better at memorizing after very few examples. There are ways to mitigate/undo memorization, but they're generally expensive and don't work against targeted attacks
+- 📺[Martin Wattenberg: Models within models - how do LLMs represent the world?](https://www.youtube.com/watch?v=P_FmwO-wVK8)
+    - Covered case studies of Othello-GPT (player-opponent board state) & Stable Diffusion (depth, foreground-background), speculated about a user-system model in LLMs, and raised the question of what data about the internal model would be useful (& not) to expose to the user
+- 📺[Nicholas Carlini: The security of LLMs](https://www.youtube.com/watch?v=_EbntLk5QTk)
+    - Adversarial robustness in image models remains a challenge after a decade of research, although attacks weren't relevant to bad actors. Adversarial robustness has become much more important for LLMs. Despite text not being differentiable, the embeddings are, so LLMs are also highly susceptible to gradient-based attacks. Just like image models, attacks transfer to LLMs with a different architecture and trained on different data. Data poisoning is becoming more important
+
 07/25/2024
 - 📰[AI achieves silver-medal standard solving International Mathematical Olympiad problems](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/)
     - AlphaProof uses an LLM to translate math problems into formal language. The backend uses AlphaZero's algorithm (MCTS + self-play with synthetic data), which sounds very similar to the Lean-STaR paper from 07/22. Note for the headline performance, problems were manually translated to Lean, and LLM translation is still WIP: "the results showed great promise"
