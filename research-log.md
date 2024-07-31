@@ -6,6 +6,18 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+07/31/2024
+- 📰[Circuits Updates - July 2024](https://transformer-circuits.pub/2024/july-update/index.html)
+    - The Next Five Hurdles: missing features (SAEs are likely only extracting a small fraction of total features), cross-layer superposition (though residual stream SAEs can maybe address features from previous layers), attention superposition, interference weights, zooming out (how do we go from understanding features/circuits to understanding the model as a whole? How much will automated interp help?)
+    - What is a Linear Representation? What is a Multidimensional Feature?: there has been some ambiguity around the linear representation hypothesis. Are features one-dimensional representations, or linear in a mathematical sense (addition and scaling)? Olah thinks the latter is the better definition and talks about multidimensional feature manifolds, but also ends with a note that definitions should be fluid in research and imperfect theories can still be productive
+    - The Dark Matter of Neural Networks?: models may have "memorization features" which are extremely numerous & sparse (hence "dark matter")
+    - Attention Pivot Tables: notes on reproducing early work on interpreting single-layer transformers as implementing skip-trigrams, and how "fiddly" this was
+    - Measuring feature sensitivity using dataset filtering: despite SAEs finding interpretable features that are highly specific (only fire for a specific concept), many of them appear to not be very sensitive (don't fire even when humans/Claude think the text highly relates to the feature). This may be because the feature is subtly related to a concept rather than representing the concept as a whole
+- 📰[Open Source Automated Interpretability for Sparse Autoencoder Features](https://blog.eleuther.ai/autointerp/)
+    - Released a library to generate and score explanations of SAE features using LLMs. This has become drastically cheaper with the latest models (e.g. Llama-3 70B). This works some of the time, but explanations aren't precise enough to distinguish among similar concepts, and a significant fraction of explanations don't generate samples that activate the feature at all (consistent with above findings from Anthropic).
+- 📰[Exploring Gemma Scope](https://www.neuronpedia.org/gemma-scope#main)
+    - Interactive site explaining/demoing uses of extracting features with SAEs, including steering
+
 07/30/2024
 - 📜[Scaling Exponents Across Parameterizations and Optimizers](https://arxiv.org/pdf/2407.05872)
     - Gives theoretical and empirical backing (tens of thousands of models, up to 27B parameters) for per-layer learning rates and scaling epsilon, or removing it entirely, as in Adam-atan2. Alignment/correlation between parameter and data vectors can cause a significant (and non-monotonic) shift in activation norms across layers and over time, motivating the above recommendations. Following these guidelines can find hyperparameters on small versions of models that transfer well to a larger scale
