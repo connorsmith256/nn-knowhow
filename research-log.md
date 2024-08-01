@@ -6,6 +6,14 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/01/2024
+- 📰[Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)
+    - A lot of hallucinations come from incorrect pre-training data. Benchmarks like FactualityPrompt & FActScore measure general factuality, TruthfulQA measures accuracy on adversarial examples of common human falsehoods, and SelfAware measures a model's ability to know whether it knows a question is unanswerable. FAVABench measures fine-grained kinds of hallucinations. Pretrained models tend to be better calibrated on their correctness (scaling with model size), but RLHF reduces calibration. RAG, RARR, FAVA, RR, and Self-RAG are all methods that use external information to augment/correct answers. Chain-of-verification (CoVe) and recitation-augmented-generation (RECITE) both use the model itself to reduce hallucinations. There are several approaches to favoring factuality/attribution during SFT/DPO
+- 📜[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401)
+    - RAG augments the model with non-parametric memory: documents are embedded prior to queries (often in small chunks), selected at query-time by similarity (FAISS), and used to augment the prompt. The pre-trained retriever and generator are fine-tuned end-to-end. Describes RAG-token, where the generator produces a distribution for the next token for each (top K) document, and RAG-sequence, where a separate beam search is run over each (top K) document for the entire sequence
+- 📜[Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2312.10997)
+    - Naive RAG can have issues with selecting misaligned chunks and integrating retrieved information with the query. Advanced techniques include optimizing indexing structure, optimizing the query (rewriting, expanding, decomposing), post-retrieval processing (reranking chunks, compressing context), iterative/recursive retrieval, and specialized modules (direct searches across different data sources, intelligent routing, using task-specific retrievers). There are many metrics/benchmarks to evaluate different approaches, but no standard
+
 07/31/2024
 - 📰[Circuits Updates - July 2024](https://transformer-circuits.pub/2024/july-update/index.html)
     - The Next Five Hurdles: missing features (SAEs are likely only extracting a small fraction of total features), cross-layer superposition (though residual stream SAEs can maybe address features from previous layers), attention superposition, interference weights, zooming out (how do we go from understanding features/circuits to understanding the model as a whole? How much will automated interp help?)
