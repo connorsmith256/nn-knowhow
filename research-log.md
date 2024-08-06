@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/05/2024
+- 📜[Measuring Progress in Dictionary Learning for Language Model Interpretability with Board Game Models](https://arxiv.org/pdf/2408.00113)
+    - Applied SAEs to Othello and chess models and introduced p-annealing, where the sparsity penalty starts at the L1 norm and gradually approaches the L0 norm (which is non-differentiable). p-annealing on a standard SAE was comparable to gated SAEs. However, none achieve reconstruction comparable to a linear probe, offering further evidence that SAEs aren't capturing all information in the model's representations
+- 📜[Tamper-Resistant Safeguards for Open-Weight LLMs](https://arxiv.org/pdf/2408.00761)
+    - Introduces Tampering Attack Resistance (TAR), adversarial training designed to minimize the ability to fine-tune away safeguards. They start with a model with a general safeguard like circuit breaking. TAR performs an inner loop sampling attacks against the safety metric. The gradient from the inner loop is then mixed in an outer loop with the gradient from a retain loss (from representation engineering) to preserve capabilities performance. Notably, the tamper-resistance loss is negative entropy rather than negative cross-entropy, since the model can learn to exploit the latter. After fine-tuning attacks, TAR maintained near-random performance on WMDP, significantly more robust than prior approaches. TAR also achieves a lower attack success rate (ASR) on HarmBench, although the success rate is still 64%. TAR does impose a cost on capabilities, comparable to other approaches
+
 08/02/2024
 - 📜[The Larger the Better? Improved LLM Code-Generation via Budget Reallocation](https://arxiv.org/pdf/2404.00725)
     - Evaluated Code Llama (7B to 70B) on pass@k for HumanEval, MBPP, APPS. For a fixed compute/wall-time budget, 7B and 13B can outperform even the 70B model. Note this appears dependent on the difficulty of the task, since for the competition-level APPS split, 7B was dominated by larger models. In situations where unit tests aren't available, a larger model can be used as a ranker for generations from smaller models, but if wall-time isn't a constraint, simply generating from the larger model yields much higher accuracy.
