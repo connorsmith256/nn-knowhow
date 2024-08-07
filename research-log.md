@@ -6,6 +6,16 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/07/2024
+- 📰[A Visual Guide to Quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization)
+    - bfloat16 introduced to maintain range of 32-bit float with slightly less precision in fewer bits. Zero-point (asymmetric) quantization & clipping allow for compressing the range of values to fewer bits. Static quants use a calibration dataset to find appropriate scale and zeropoint values. GPTQ uses per-layer quants, computed using the inverse-Hessian to determine which weights are most sensitive. GGUF splits each layer into super blocks and again into sub blocks, where the sub blocks use absmax (symmetric) quantization with a scale factor informed by the super block. BitLinear (1-bit) quantizes weights to 1 bit during training by centering the distribution around 0 and uses absmax to quantize the activations
+- 📜[The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764v1)
+    - BitNet replaces linear layer weights during training with absmean quants rounding to -1, 0, or 1, which allows matrix multiplications to become additions. This reduces memory consumption, latency, & energy, and increases throughput, with equal perplexity for larger models. For Llama 70B, improvements were 7x for memory consumption, 4x for latency, 41x for energy, and 9x for throughput.
+- 📜[Extreme Compression of Large Language Models via Additive Quantization](https://arxiv.org/pdf/2401.06118)
+    - Introduces AQLM (Additive Quantization of Language Models), which splits weight rows of linear layers into groups of weights represented by a sum of vectors from learned codebooks and codes, optimized by iteratively performing a beam search over code values followed by gradient descent over codebooks. After quantizing linear layers, the remaining parameters are fine-tuned to approximate the original outputs. They achieve 2-bit PTQ (post-training quant) with minimal quality loss (much better than GPTQ and slightly better than QuIP#), achieving pareto-optimality below 3 bits
+- 📜[PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression](https://arxiv.org/pdf/2405.14852)
+    - Makes the case that straight-through estimation for fine-tuning compressed weights is sub-optimal and introduces PV-tuning, which iteratively alternates between optimizing continuous (P) and discrete (V) parameters. PV-tuning is designed to work with various PTQ methods and achieves pareto-optimality at 2.0 bits, allowing a 2-bit 13B model (Llama 2) to outperform the 16-bit 7B model
+
 08/05/2024
 - 📜[Measuring Progress in Dictionary Learning for Language Model Interpretability with Board Game Models](https://arxiv.org/pdf/2408.00113)
     - Applied SAEs to Othello and chess models and introduced p-annealing, where the sparsity penalty starts at the L1 norm and gradually approaches the L0 norm (which is non-differentiable). p-annealing on a standard SAE was comparable to gated SAEs. However, none achieve reconstruction comparable to a linear probe, offering further evidence that SAEs aren't capturing all information in the model's representations
