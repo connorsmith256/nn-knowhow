@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/09/2024
+- 📜[Reasons to Doubt the Impact of AI Risk Evaluations](https://arxiv.org/pdf/2408.02565)
+    - Leading industry, government, & safety labs allocate significant resources to evals, in the hope that they improve understanding of risks & enable mitigating them. However, evals may fail to improve understanding (miss risks due to interactions with the real world, cost more than building scary demos of capabilities, fail to capture discoveries in deployment). They may also fail to mitigate risks after lines are crossed (voluntary commitments are not dependable, governments can be slow to react, evals don't improve safety culture). They may even backfire (becoming goals for dual-use capabilities, consuming resources that could be used for technical safety/governance progress, contributing to safety-washing, leaking scary demos). To improve the situation, stakeholders should be aware of hype, measure propensities as well as capabilities, ensure evals can be done pre-deployment (& white-box), & continue to make eval practices more rigorous. Labs should honor evals commitments, provide access to models, & share eval infrastructure. External evaluators should specialize & cooperate on standards Government should require lab cooperation & clarify protections for doing so. Researchers should advance a broad science of evaluation & develop better threat modeling.
+
 08/08/2024
 - 📜[POA: Pre-training Once for Models of All Sizes](https://www.arxiv.org/pdf/2408.01031)
     - POA builds on teacher-student distillation by adding an "elastic student" as another branch. The elastic student is a random subset of the student's parameters, chosen by randomly sampling from among a combination of widths and depths (biased toward smaller sub-networks). The elastic students acts as regularizers/an ensemble during training, and can be directly extracted from the pre-trained teacher. Both the teacher and extracted students achieve SOTA performance on k-NN classification for ImageNet-1K, object detection & segmentation on COCO, and semantic segmentation on ADE20K
