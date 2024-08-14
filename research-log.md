@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/14/2024
+- 📜[Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solvers](https://arxiv.org/pdf/2408.06195)
+    - Introduces rStar for small language models (SLMs), in an attempt to improve reasoning without a stronger teacher model. (Bigger models can achieve better improvement to reasoning on their own than smaller models.) rStar uses MCTS where the action space includes: propose a one-step thought, propose remaining thoughts (standard CoT), propose the next sub-question + answser (RAP), re-answer the sub-question, rephrase the sub-question. Rewards are determined by how likely the action is to lead to the right answer. Upper Confidence Bounds applied to Trees (UCT) is used to select each node. Since it's difficult to define a single metric that reliably selects the best trajectory, all trajectories are collected, and a second discriminator SLM is used to perform mutual reasoning consistency. MCTS alone provides a boost to performance, beating previous methods, and combined with the discriminator, rStar does even better. Weak discriminators seem to work fine, almost as well as GPT-4 (at least on GSM8K)
+
 08/13/2024
 - 📰[Introducing SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/)
     - Used human annotators to verify a subset (500 samples) of SWE-bench, filtering out poorly specified issues & those with unfair tests. SOTA is now ~35%
