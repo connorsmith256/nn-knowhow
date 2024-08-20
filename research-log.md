@@ -6,6 +6,12 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/20/2024
+- 📜[ARCLE: The Abstraction And Reasoning Corpus Learning Environment For Reinforcement Learning](https://www.arxiv.org/pdf/2407.20806)
+    - Introduces an RL environment (in Gymnasium) for the ARC benchmark. Actions are split into pixel-level selection and operation groups. Agents are trained via PPO. By default, the reward is exceptionally sparse, so auxiliary losses are added. Training using all losses and random initial grids yielded a success rate of >95%, 75% of the time. A separate experiment on policies shows that not assuming conditional independence between selection & operation is necessary for effective learning. The multi-task few-shot nature of ARC makes it a good fit for advanced RL approaches (meta-RL, generative models, & model-based RL)
+- 📰[On the speed of ViTs and CNNs](http://lucasb.eyer.be/articles/vit_cnn_speed.html)
+    - Pushes back against criticism that ViTs aren't practical at higher resolution for real-time processing. Makes the case that ViTs are fast enough for real-time image processing (>100 images/sec) at 1024x1024 resolution, and that for most tasks, we only need roughly 224px for most photos, 448px for reading text in digital images, 896px for reading a desktop screen/page of a document (which happen to be the resolutions used by PaliGemma)
+
 08/19/2024
 - 📰[AI Fundamentals: Energy-Based Models](https://mpmisko.github.io/2024/ai-fundamentals-energy-based-models/)
     - EBMs are a kind of generative models where the goal is to explicitly learn a probability distribution underlying training data, which allows the model to generate samples from the true distribution. Directly computing the MLE is expensive, so practical techniques include: contrastive divergence (CD) used to approximate the MLE; score matching, where the score function is the negative gradient of the log-prob wrt. x, and we minimize the square of the expected difference between the model's score and the data score; noise contrastive estimation (NCE), where the model is trained to distinguish between samples from the data distribution and a noise distribution. EBMs can be difficult to train (often diverge, sensitive to hyperparameters) and haven't been scaled as large as other models
