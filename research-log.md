@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/22/2024
+- 📜[Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation](https://arxiv.org/pdf/2408.11812)
+    - Introduces Crossformer, a single policy trained on 900k trajectories over 20 embodiments, varying in camera views, proprioceptive inputs, joint configurations, action outputs, and control frequencies. Tasks can be specified with images or language, and action-space specific heads handle emitting appropriate outputs. Input sequences consist of alternating chunks of image observations, proprioceptive observations, and readout tokens. Action chunking helps with temporal consistency & avoiding compounding errors. The policy avoids negative transfer (though also doesn't exhibit significant positive transfer), matches or outperforms SOTA policies tailored to each setting
+
 08/21/2024
 - 📜[Scaling Law With Learning Rate Annealing](https://arxiv.org/pdf/2408.11029)
     - Examines the loss curve of LLMs as a function of a forward area (a sum of the step-wise LR) and an annealing area (accounts for momentum & the more rapid decrease in loss as the LR decays). These two stages trade off with one another, and for WSD (warmup-stable-decay), the ideal annealing ratio is ~10% of total steps (decreasing w/ total steps). This framing aligns with several observed phenomena, e.g. optimal cosine annealing uses a cycle length equal to total number of steps & decays LR to zero, why constant LR can outperform cosine for a small number of steps, why higher re-warmup LR in continued pre-training spikes loss initially but results in a lower final loss, & why warmup steps matter less in continued pre-training. An advantage of this framing over Chinchilla scaling laws is because it predicts loss at any given step count, thousands of data points can be collected in a single training run, allowing for fitting a model with <1% the computational cost
