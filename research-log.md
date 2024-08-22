@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+08/21/2024
+- 📜[Scaling Law With Learning Rate Annealing](https://arxiv.org/pdf/2408.11029)
+    - Examines the loss curve of LLMs as a function of a forward area (a sum of the step-wise LR) and an annealing area (accounts for momentum & the more rapid decrease in loss as the LR decays). These two stages trade off with one another, and for WSD (warmup-stable-decay), the ideal annealing ratio is ~10% of total steps (decreasing w/ total steps). This framing aligns with several observed phenomena, e.g. optimal cosine annealing uses a cycle length equal to total number of steps & decays LR to zero, why constant LR can outperform cosine for a small number of steps, why higher re-warmup LR in continued pre-training spikes loss initially but results in a lower final loss, & why warmup steps matter less in continued pre-training. An advantage of this framing over Chinchilla scaling laws is because it predicts loss at any given step count, thousands of data points can be collected in a single training run, allowing for fitting a model with <1% the computational cost
+
 08/20/2024
 - 📜[ARCLE: The Abstraction And Reasoning Corpus Learning Environment For Reinforcement Learning](https://www.arxiv.org/pdf/2407.20806)
     - Introduces an RL environment (in Gymnasium) for the ARC benchmark. Actions are split into pixel-level selection and operation groups. Agents are trained via PPO. By default, the reward is exceptionally sparse, so auxiliary losses are added. Training using all losses and random initial grids yielded a success rate of >95%, 75% of the time. A separate experiment on policies shows that not assuming conditional independence between selection & operation is necessary for effective learning. The multi-task few-shot nature of ARC makes it a good fit for advanced RL approaches (meta-RL, generative models, & model-based RL)
