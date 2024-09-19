@@ -6,6 +6,10 @@ Legend:
 - 🧪: code, experiments
 - 📺: videos
 
+09/18/2024
+- 📜[A Comprehensive Evaluation of Quantized Instruction-Tuned Large Language Models: An Experimental Analysis up to 405B](https://arxiv.org/pdf/2409.11055)
+    - Evaluates quantization of Vicuna, Gemma 1, and Llama 2 & 3 family of models on more recent benchmarks (MATH, MuSR, IFEval, GPQA, MMLU-PRO) using GPTQ, AWQ, SmoothQuant, and FP8. The authors confirm quantized models generally outperform full-precision smaller models (with exceptions for hallucination & instruction following). They find weight-only quants (GPTQ, AWQ) preserve accuracy better, especially for very large models (Llama 3.1 405B). Degradation from quantization does not significantly differ on harder evals
+
 09/17/2024
 - 📜[ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://aloha-unleashed.github.io/assets/aloha_unleashed.pdf)
     - Dextrous manipulation is hard to model, and past attempts at imitation learning for robots has been limited to non-dextrous tasks. The authors gather 26,000 teleoperated demonstrations across 5 tasks + 2,000 demonstrations on 3 simulated tasks and a transformer architecture which takes ResNet feature maps from multiple camera views and proprioception state. An L1 loss is insufficient to achieve high performance, but a diffusion policy with action chunking does better (40-95% success across tasks). Performance slightly generalizes to states not seen during training, but there are still edge cases where the policy fails to recover
